@@ -1,0 +1,387 @@
+/*初始化*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+ul li {
+    list-style: none;
+}
+/*整体=包裹哆啦A梦的DIV*/
+
+.container {
+    margin: 10px auto;
+    /*居中*/
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    /*不让它跑出去*/
+    position: relative;
+}
+/*多啦A梦的头*/
+
+.header {
+    border: 1px solid black;
+    width: 410px;
+    height: 420px;
+    margin: 0px auto;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(16, 144, 227);
+}
+
+.header_border {
+    border: 1px solid black;
+    width: 360px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 50%;
+    /*左移动一半*/
+    margin-left: -180px;
+    /*在使用margin-left取width的360/2的像素 就可以居中了*/
+    background: #fff;
+}
+/*眼睛*/
+
+.yan_l,
+.yan_r {
+    position: absolute;
+    /*这里就是使用到了 外相对内绝对，大家可以试一试*/
+    border: 1px solid black;
+    width: 75px;
+    height: 80px;
+    border-radius: 50%;
+    top: -35px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.yan_l {
+    left: 110px;
+}
+
+.yan_r {
+    left: 187px;
+}
+/*左眼线*/
+
+.yunxian {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 23px;
+    height: 40px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+.clear_one {
+    /*多加一个DIV挡住眼睛下半部分，就形成了一个凸出来的半圈*/
+    position: absolute;
+    top: 15px;
+    left: -4px;
+    width: 30px;
+    height: 28px;
+    background: #fff;
+}
+/*右眼球*/
+
+.yanqiu {
+    width: 20px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.yanzhu {
+    background: #fff;
+    width: 10px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+}
+/*鼻子*/
+
+.bizi {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+    background: rgb(229, 0, 17);
+    z-index: 20;
+}
+
+.bizi_qiu {
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    box-shadow: 0px 0px 5px #fff;
+}
+/*胡须*/
+
+.x1,
+.x2,
+.x3,
+.x4,
+.x5,
+.x6 {
+    position: absolute;
+    border: 1px solid black;
+    z-index: 10;
+    width: 130px;
+}
+
+.x1,
+.x2,
+.x3 {
+    left: 0px;
+}
+
+.x4,
+.x5,
+.x6 {
+    left: 230px;
+}
+
+.x1 {
+    top: 80px;
+    transform: rotate(10deg);
+}
+
+.x2 {
+    top: 130px;
+}
+
+.x3 {
+    top: 170px;
+    transform: rotate(170deg);
+}
+
+.x4 {
+    top: 80px;
+    transform: rotate(170deg);
+}
+
+.x5 {
+    top: 130px;
+}
+
+.x6 {
+    top: 170px;
+    transform: rotate(10deg);
+}
+/*鼻子下面的线*/
+
+  .header_x {
+      background: black;
+      height: 202px;
+      width: 2px;
+      margin: 0px auto;
+      position: relative;
+      z-index: 10;
+  }
+/*嘴巴*/
+
+.zuiba {
+    border: 2px solid black;
+    width: 300px;
+    position: relative;
+    top: -200px;
+    left: 50%;
+    margin-left: -150px;
+    border-radius: 50%;
+    height: 199px;
+    z-index: 0;
+}
+
+.clear_two {
+    /*同样挡住此处半圆，此处的遮挡范围比较大，小心点*/
+    width: 320px;
+    height: 140px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -160px;
+    background: #fff;
+    z-index: 5;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+/*头部完成*/
+/*身体*/
+
+.body {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: -60px auto 0;
+    background: #fff;
+    overflow: hidden;
+}
+/*围巾*/
+
+.weijing {
+    border: 1px solid black;
+    background: rgb(229, 0, 17);
+    width: 295px;
+    height: 20px;
+    position: relative;
+    left: 50%;
+    top: -1px;
+    border-radius: 15px;
+    margin-left: -147.5555px;
+    z-index: 25;
+}
+
+.lingdang {
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -25px;
+    background-color: rgb(254, 244, 57);
+}
+
+.zhongxian {
+    border: 1px solid black;
+    height: 3px;
+    width: 85%;
+    left: 50%;
+    margin-left: -47.5%;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+}
+
+.lingdang_qiu {
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(127, 109, 91);
+    margin: 19px auto 0;
+}
+
+.lingdang_xian {
+    width: 1px;
+    background: black;
+    height: 15px;
+    margin: 0px auto;
+}
+
+.shengti {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 280px;
+    height: 130px;
+    margin: -1px auto 0px;
+    position: relative;
+    top: 40px;
+    z-index: 5;
+    /*多注意z-index的层叠关系 因为这个很重要*/
+    background: rgb(0, 160, 232);
+}
+/*手*/
+
+.shou_l {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 38px;
+    width: 110px;
+    height: 50px;
+    transform: rotate(140deg);
+    /*旋转140度，根据不同方向旋转*/
+    z-index: 2;
+    background: rgb(0, 160, 232);
+}
+
+.shou_l_qiu {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: -5px;
+    background: #fff;
+}
+
+.shou_r {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 355px;
+    width: 110px;
+    height: 50px;
+    transform: rotate(40deg);
+    /*旋转40度，根据不同方向旋转*/
+    z-index: 2;
+    background: rgb(0, 160, 232);
+}
+
+.shou_r_qiu {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: -5px;
+    background: #fff;
+}
+/*四次元口袋*/
+
+.koudai {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+    border-radius: 50%;
+    top: -150px;
+    z-index: 20;
+    background: #fff;
+}
+
+.koudai_c {
+    border: 1px solid black;
+    position: absolute;
+    top: 150px;
+    margin-left: -90px;
+    left: 50%;
+    width: 180px;
+    height: 80px;
+    border-radius: 0 0 180px 180px;
+}
+/*因为口袋是上面封顶 所以直接不用遮挡 还是同样的外相对内绝对*/
