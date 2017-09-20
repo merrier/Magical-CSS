@@ -6,8 +6,6 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 
 目前本项目已经通过Github Pages搭建完毕，可以[点击这里](https://merrier.github.io/Magical-CSS/)查看
 
-***
-
 ### 机器猫（Doraemon_1）
 这款机器猫是目前为止我看到过的实现的最好的，还原度很高，而且作者对于阴影的把控恰到好处，使机器猫变得生动立体，可以看出来，作者不仅仅是一名前端大牛，更是一个追求完美，注重细节的设计师。
 #### 效果展示
@@ -133,3 +131,8 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 * [使用纯洁的CSS实现HTML5的新logo](http://www.zhangxinxu.com/wordpress/?p=1393)
 * [拾人牙慧 – CSS3实现Opera浏览器的logo](http://www.zhangxinxu.com/wordpress/?p=1012)
 * [令人难以置信的纯CSS3图标和Logo](http://www.17css.com/amazingly-realistic-css3-icons-and-logos/)
+http://www.html5tricks.com/demo/css3-bee/index.html
+http://www.html5tricks.com/demo/css3-iphone-ipad-imac-iwatch/index.html
+http://www.html5tricks.com/demo/css3-pretty-cat-face/index.html
+http://www.html5tricks.com/demo/pure-css3-elephant-animation/index.html
+http://www.html5tricks.com/demo/css3-walking/index.html
