@@ -131,6 +131,7 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 * [使用纯洁的CSS实现HTML5的新logo](http://www.zhangxinxu.com/wordpress/?p=1393)
 * [拾人牙慧 – CSS3实现Opera浏览器的logo](http://www.zhangxinxu.com/wordpress/?p=1012)
 * [令人难以置信的纯CSS3图标和Logo](http://www.17css.com/amazingly-realistic-css3-icons-and-logos/)
+* [CSS3 SVG实现可爱的动物哈士奇和狐狸动画](http://www.codeceo.com/article/css3-svg-husky-and-fox.html)
 http://www.html5tricks.com/demo/css3-bee/index.html
 http://www.html5tricks.com/demo/css3-iphone-ipad-imac-iwatch/index.html
 http://www.html5tricks.com/demo/css3-pretty-cat-face/index.html
