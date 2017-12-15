@@ -56,7 +56,7 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 #### 效果展示
 
 <div align="center">
-<img src="iphone_2/iphone_2.png" height="250"/>
+<img src="iphone_2/iphone_2.gif" height="250"/>
 </div>
 
 #### [原文链接](http://blog.csdn.net/qq_15096707/article/details/53579453)
@@ -71,7 +71,7 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 #### 效果展示
 
 <div align="center">
-<img src="Minions_1/Minions_1.png" height="250"/>
+<img src="Minions_1/Minions_1.gif" height="250"/>
 </div>
 
 #### [原文链接](https://segmentfault.com/a/1190000005095807)
@@ -101,7 +101,7 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 #### 效果展示
 
 <div align="center">
-<img src="Minions_3/Minions_3.png" height="250"/>
+<img src="Minions_3/Minions_3.gif" height="250"/>
 </div>
 
 #### [原文链接](http://www.jianshu.com/p/79a0068e98c1)
@@ -128,12 +128,13 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 
 其实CSS3能做的不仅仅只有上面这些，但由于篇幅关系，就选取了我认为最难实现的一些图形放在了这个项目中，下面是一些前端大牛用CSS3实现的图形，比如Opera logo、IE logo、HTML5 logo等等：
 
+* [ChokCoco用单标签实现各种图形](http://sbco.cc/magicCss/html/index.html)
 * [使用纯洁的CSS实现HTML5的新logo](http://www.zhangxinxu.com/wordpress/?p=1393)
 * [拾人牙慧 – CSS3实现Opera浏览器的logo](http://www.zhangxinxu.com/wordpress/?p=1012)
 * [令人难以置信的纯CSS3图标和Logo](http://www.17css.com/amazingly-realistic-css3-icons-and-logos/)
 * [CSS3 SVG实现可爱的动物哈士奇和狐狸动画](http://www.codeceo.com/article/css3-svg-husky-and-fox.html)
-http://www.html5tricks.com/demo/css3-bee/index.html
-http://www.html5tricks.com/demo/css3-iphone-ipad-imac-iwatch/index.html
-http://www.html5tricks.com/demo/css3-pretty-cat-face/index.html
-http://www.html5tricks.com/demo/pure-css3-elephant-animation/index.html
-http://www.html5tricks.com/demo/css3-walking/index.html
+* [CSS3 实现的蜜蜂](http://www.html5tricks.com/demo/css3-bee/index.html)
+* [苹果全家桶：iphone、ipad、imac、iwatch](http://www.html5tricks.com/demo/css3-iphone-ipad-imac-iwatch/index.html)
+* [可爱猫脸](http://www.html5tricks.com/demo/css3-pretty-cat-face/index.html)
+* [行走的大象](http://www.html5tricks.com/demo/pure-css3-elephant-animation/index.html)
+* [人物行走动画](http://www.html5tricks.com/demo/css3-walking/index.html)
