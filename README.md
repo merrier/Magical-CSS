@@ -62,6 +62,22 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 #### [原文链接](http://blog.csdn.net/qq_15096707/article/details/53579453)
 #### [在线展示](https://merrier.github.io/Magical-CSS/iphone_2/iphone_2.html)
 
+
+***
+
+### iwatch（iwatch_1）
+
+用CSS3实现的iwatch加载动画，阴影配色都很逼真！
+
+#### 效果展示
+
+<div align="center">
+<img src="iwatch_1/iwatch.gif" height="250"/>
+</div>
+
+#### [原文链接](https://www.w3cplus.com/css3/watch.html)
+#### [在线展示](https://merrier.github.io/Magical-CSS/iwatch_1/iwatch_1.html)
+
 ***
 
 ### 小黄人（Minions_1）
