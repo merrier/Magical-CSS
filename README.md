@@ -72,7 +72,7 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 #### 效果展示
 
 <div align="center">
-<img src="iwatch_1/iwatch.gif" height="250"/>
+<img src="iwatch_1/iwatch_1.gif" height="250"/>
 </div>
 
 #### [原文链接](https://www.w3cplus.com/css3/watch.html)
