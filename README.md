@@ -138,6 +138,19 @@ css3提供了很多新特性，使我们可以利用css实现各种有意思的�
 #### [原文链接](http://lorenai.com/playground/hello-kitty.html)
 #### [在线展示](https://merrier.github.io/Magical-CSS/HelloKitty_1/HelloKitty_1.html)
 
+### douyin
+
+前端大神[chokcoco](https://github.com/chokcoco)的大作，单标签实现抖音logo！
+
+#### 效果展示
+
+<div align="center">
+<img src="douyin/douyin.png" height="250"/>
+</div>
+
+#### [原文链接](https://github.com/chokcoco/CSS-Inspiration#%E9%98%B4%E5%BD%B1box-shadowdrop-shadow)
+#### [在线展示](https://merrier.github.io/Magical-CSS/douyin/douyin.html)
+
 ***
 
 ### 其他纯CSS图形
