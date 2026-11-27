@@ -1,0 +1,13 @@
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: #fff1c9 }
+.bee { position: relative; width: 195px; height: 124px; animation: hover 1.9s ease-in-out infinite alternate }
+.bee * { position: absolute }
+.body { left: 14px; bottom: 0; width: 130px; height: 77px; border-radius: 60% 46% 44% 55%; background: repeating-linear-gradient(100deg,#f6b92e 0 21px,#493728 22px 37px); box-shadow: inset 0 -7px #734a2838 }
+.body::before { content: ""; position: absolute; top: 32px; left: -14px; border: 10px solid transparent; border-right: 17px solid #493728; border-left: 0 }
+.head { width: 67px; height: 69px; right: 9px; bottom: 12px; border-radius: 50%; background: #ffcd53; box-shadow: inset -4px -5px #ecaa38 }
+.eye { top: 24px; right: 15px; width: 11px; height: 14px; border-radius: 50%; background: radial-gradient(circle at 65% 30%,white 0 1.5px,#342922 2px); box-shadow: 3px 14px 0 -1px #f19e56 }
+.head::before { content: ""; position: absolute; top: -18px; right: 16px; width: 13px; height: 21px; border: solid #493728; border-width: 3px 3px 0 0; border-radius: 0 90% 0 0; transform: rotate(20deg) }
+.wing { left: 67px; bottom: 65px; width: 57px; height: 64px; border-radius: 70% 70% 12% 75%; background: #d1ebe7; border: 2px solid #8abebc; transform-origin: bottom right; animation: flutter .18s ease-in-out infinite alternate }
+.wing.back { left: 78px; background: #add8d7; rotate: 26deg }
+@keyframes flutter { from { transform: rotate(-16deg) scaleY(.8) } to { transform: rotate(6deg) } }
+@keyframes hover { to { transform: translate(8px,-12px) rotate(-3deg) } }
+@media (prefers-reduced-motion: reduce) { .bee, .wing { animation: none } }

@@ -1,0 +1,254 @@
+/* Louis Harboe · https://web.archive.org/web/20100910/http://graphicpeel.com/cssiosicons
+   17CSS 图标与 Logo 合集 */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-size: cover;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.icon {
+  width: 176px;
+  height: 176px;
+  -webkit-border-radius: 30px;
+  background: #fff;
+  float: left;
+  margin: 50px;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.messages {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0d7315), to(#00F43B));
+}
+
+.messages .gloss {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.2)));
+  height: 90px;
+  width: 176px;
+  position: relative;
+  -webkit-border-top-right-radius: 38px;
+  -webkit-border-top-left-radius: 38px;
+  -webkit-border-bottom-right-radius: 120px 20px;
+  -webkit-border-bottom-left-radius: 100px 20px;
+  z-index: 5;
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.7);
+}
+
+.oval-speech {
+  position: relative;
+  width: 120px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  top: -55px;
+  background: #5a8f00;
+  z-index: 2;
+  -webkit-border-top-left-radius: 70px 55px;
+  -webkit-border-top-right-radius: 70px 55px;
+  -webkit-border-bottom-right-radius: 70px 55px;
+  -webkit-border-bottom-left-radius: 70px 55px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 50%, from(#C7D7E6), to(#d5e8f7));
+  -webkit-box-shadow: inset 0px 0px 60px #fff;
+}
+
+.oval-speech-shadow {
+  background: transparent;
+  -webkit-box-shadow: 0px 0px 6px #000;
+  top: -155px;
+}
+
+.oval-speech:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  bottom: -11px;
+  right: 77px;
+  width: 0;
+  height: 20px;
+  float: left;
+  border-right: 20px solid #e9f3fa;
+  background: #e9f3fa;
+  -webkit-border-top-right-radius: 80px 50px;
+  -webkit-border-bottom-right-radius: 80px 50px;
+  -moz-transform: translate(0, -2px);
+  -webkit-transform: translate(0, -2px);
+  -o-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  -webkit-box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+}
+
+.oval-speech:after {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  bottom: -12px;
+  left: 50px;
+  width: 10px;
+  height: 20px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#04d131), to(#03db34));
+  -moz-border-radius-bottomright: 40px 50px;
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 40px 50px;
+  border-bottom-right-radius: 40px 50px;
+  -moz-transform: translate(-30px, -2px);
+  -webkit-transform: translate(-30px, -2px);
+  -o-transform: translate(-30px, -2px);
+  transform: translate(-30px, -2px);
+  -webkit-box-shadow: inset  -1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.messages .diagonal-lines {
+  width: 176px;
+  height: 176px;
+  position: relative;
+  float: left;
+  opacity: 0.6;
+  -webkit-transform: rotate(45deg);
+  top: 30px;
+  right: 70px;
+}
+
+.messages .diagonal-lines div {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(transparent), color-stop(.2,rgba(15, 83, 0, 0.4)),color-stop(.8,rgba(15, 83, 0, 0.4)));
+  width: 5px;
+  position: absolute;
+}
+
+.diag-1 {
+  height: 40px;
+  top: -2px;
+  left: 10px;
+}
+
+.diag-2 {
+  height: 60px;
+  top: -13px;
+  left: 20px;
+}
+
+.diag-3 {
+  height: 80px;
+  top: -24px;
+  left: 30px;
+}
+
+.diag-4 {
+  height: 100px;
+  top: -34px;
+  left: 40px;
+}
+
+.diag-5 {
+  height: 120px;
+  top: -44px;
+  left: 50px;
+}
+
+.diag-6 {
+  height: 140px;
+  top: -54px;
+  left: 60px;
+}
+
+.diag-7 {
+  height: 160px;
+  top: -64px;
+  left: 70px;
+}
+
+.diag-8 {
+  height: 180px;
+  top: -74px;
+  left: 80px;
+}
+
+.diag-9 {
+  height: 200px;
+  top: -84px;
+  left: 90px;
+}
+
+.diag-10 {
+  height: 215px;
+  top: -92px;
+  left: 100px;
+}
+
+.diag-11 {
+  height: 225px;
+  top: -96px;
+  left: 110px;
+}
+
+.diag-12 {
+  height: 220px;
+  top: -92px;
+  left: 120px;
+}
+
+.diag-13 {
+  height: 210px;
+  top: -87px;
+  left: 130px;
+}
+
+.diag-14 {
+  height: 190px;
+  top: -79px;
+  left: 140px;
+}
+
+.diag-15 {
+  height: 170px;
+  top: -68px;
+  left: 150px;
+}
+
+.diag-16 {
+  height: 150px;
+  top: -58px;
+  left: 160px;
+}
+
+.diag-17 {
+  height: 130px;
+  top: -47px;
+  left: 170px;
+}
+
+.diag-18 {
+  height: 110px;
+  top: -38px;
+  left: 180px;
+}
+
+.diag-19 {
+  height: 90px;
+  top: -27px;
+  left: 190px;
+}
+
+.diag-20 {
+  height: 70px;
+  top: -18px;
+  left: 200px;
+}
+
+.diag-21 {
+  height: 50px;
+  top: -7px;
+  left: 210px;
+}
+
+.diag-22 {
+  height: 28px;
+  top: 4px;
+  left: 220px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.icon { margin: 0; }

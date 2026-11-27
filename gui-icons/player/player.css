@@ -1,0 +1,57 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li:before, li:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+.player {
+    padding-left:28px;
+}
+
+.player:before {
+    left:3px;
+    width:9px;
+    height:6px;
+    border-width:2px 2px 11px;
+    border-style:solid;
+    border-color:#555;
+    margin-top:-10px;
+
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+
+.player:after {
+    left:6px;
+    width:3px;
+    height:3px;
+    border:2px solid #fff;
+
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

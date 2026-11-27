@@ -1,0 +1,36 @@
+/* Radu Chelariu · https://web.archive.org/web/20100910/http://awesomebutuseless.com/designers-gone-wild/radu-chelariu-recreates-the-adobe-photoshop-logos-in-css3/
+   17CSS 图标与 Logo 合集 */
+#cs4-logo {
+  background-color: #1f6cbc;
+  background-image: -moz-linear-gradient(100% 100% 90deg, #013f80, #41a0ff );
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#41a0ff), to(#013f80));
+  -moz-box-shadow: 0px 1px 4px #7b7772;
+  color: #282828;
+  float: left;
+  font: normal bold 100px Arial, Verdana, Tahoma, sans-serif;
+  font-variant: small-caps;
+  height: 152px;
+  letter-spacing: -2px;
+  margin: 0 20px 0 0;
+  padding: 39px 0 0 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px #0987de;
+  width: 191px;
+}
+
+#cs4-logo a {
+  color: #282828;
+  display: block;
+  font: normal bold 100px Arial, Verdana, Tahoma, sans-serif;
+  font-variant: small-caps;
+  height: 156px;
+  margin: -39px 0 0 0;
+  padding: 39px 0 0 0;
+  position: absolute;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px #000;
+  width: 191px;
+  z-index: 15;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+#cs4-logo { margin: 0; position: relative; inset: auto; }

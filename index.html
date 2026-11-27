@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title data-en="Magical CSS · CSS Art Gallery">Magical CSS · CSS 图形收藏馆</title>
+  <script>
+    try {
+      const saved = localStorage.getItem('magical-css-theme');
+      if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+    } catch { /* Storage can be unavailable in private browsing. */ }
+  </script>
+  <link rel="stylesheet" href="vendor/codemirror/codemirror.css">
+  <link rel="stylesheet" href="gallery.css?v=5af01f78">
+  <script defer src="vendor/codemirror/editor.js"></script>
+  <script defer src="gallery.js?v=58025b3b"></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./"><b aria-hidden="true">{✦}</b> Magical CSS</a>
+    <div class="header-actions">
+      <a href="https://github.com/merrier/Magical-CSS">GitHub ↗</a>
+      <select id="theme" aria-label="页面主题" data-en-aria-label="Page theme">
+        <option value="system" data-en="System">跟随系统</option>
+        <option value="light" data-en="Light">浅色</option>
+        <option value="dark" data-en="Dark">深色</option>
+      </select>
+      <select id="language" aria-label="页面语言" data-en-aria-label="Page language">
+        <option value="zh-CN" lang="zh-CN">中文</option>
+        <option value="en" lang="en">English</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <div class="tools">
+      <nav aria-label="作品分类" data-en-aria-label="Categories"></nav>
+      <label class="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="搜索作品、来源…" data-en-placeholder="Search works or sources…" aria-label="搜索作品或来源" data-en-aria-label="Search works or sources"></label>
+    </div>
+    <p id="count" role="status"></p>
+    <section id="grid" aria-label="作品列表" data-en-aria-label="Artwork list"></section>
+    <noscript>请启用 JavaScript，或前往 GitHub 查看作品目录。 <span lang="en">Enable JavaScript or browse the collection on GitHub.</span></noscript>
+  </main>
+  <dialog aria-labelledby="title">
+    <div class="dialog-head"><h2 id="title"></h2><button id="close" aria-label="关闭详情" data-en-aria-label="Close details">×</button></div>
+    <div class="code-toolbar">
+      <div id="files" aria-label="源文件" data-en-aria-label="Source files"></div>
+      <button id="copy-code" disabled aria-live="polite">复制代码</button>
+    </div>
+    <div id="editor"></div>
+  </dialog>
+</body>
+</html>

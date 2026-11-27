@@ -1,0 +1,29 @@
+/* ChokCoco · https://www.cnblogs.com/coco1s/p/6992177.html */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.octagon {
+    position: relative;
+    width: 40px;
+    height: 100px;
+    background: yellowgreen;
+}
+.octagon::before {
+    content: "";
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    border-left: 30px solid yellowgreen;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+.octagon::after {
+    content: "";
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-right: 30px solid yellowgreen;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}

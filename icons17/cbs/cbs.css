@@ -1,0 +1,85 @@
+/* Justin Sepulveda · https://web.archive.org/web/20100910/http://robustnessiskey.com/csslogos
+   17CSS 图标与 Logo 合集 */
+.logo {
+  background-color: #fff;
+  margin: 5em auto;
+  font-size: 100%;
+  width: 34em;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.logo li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 100;
+}
+
+#cbs {
+  background-image: -moz-linear-gradient(0% 40% -90deg, #333, #000);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 60%, from(#444), to(#000));
+  height: 34em;
+  width: 34em;
+  position: relative;
+  -webkit-border-radius: 24em;
+  -moz-border-radius: 24em;
+}
+
+#cbs li {
+  background-color: #fff;
+  height: 21.25em;
+  width: 21.25em;
+  position: relative;
+  top: 6.5em;
+  left: 6.5em;
+  -webkit-border-radius: 15em 0 15em 0;
+  -moz-border-radius: 15em 0 15em 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+#cbs li:after {
+  background-image: -moz-linear-gradient(0% 20% -45deg, #444, #000);
+  background-image: -webkit-gradient(linear, 0% 0%, 80% 40%, from(#555), to(#000));
+  content: " ";
+  height: 15em;
+  width: 15em;
+  position: absolute;
+  top: 3.1em;
+  left: 3.1em;
+  -webkit-border-radius: 15em;
+  -moz-border-radius: 15em;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.logo { margin: 0; font-size: 9px; }

@@ -1,0 +1,19 @@
+body { min-height: 100svh; margin: 0; display: grid; place-items: center; background: #e4e7f2 }
+.devices { position: relative; font-size: min(1vw,6px); width: 89em; height: 50em }
+.devices div { position: absolute; box-sizing: border-box; background: #292c35; box-shadow: inset 0 0 0 .45em #a1a6ad }
+.screen { position: absolute; inset: 5%; border-radius: inherit; background: linear-gradient(142deg,#233a76 13%,#b279c8 31%,#ffb68c 49%,#687cc0 50%,#344776 72%,#354c72 78%,#e8a9a6); background-size: 190% 160%; animation: wallpaper 6s ease-in-out infinite alternate }
+.imac { width: 57em; height: 34em; left: 12em; top: 1em; border-radius: 1.4em; border-bottom: 4em solid #bbc0c9 }
+.imac .screen { border-radius: .3em }
+.imac::before, .imac::after { content: ""; position: absolute; background: linear-gradient(90deg,#959ca8,#e0e2e6,#99a1ab) }
+.imac::before { width: 10em; height: 10em; left: 23.5em; top: 33em; clip-path: polygon(25% 0,75% 0,100% 100%,0 100%) }
+.imac::after { width: 19em; height: 1em; top: 42em; left: 19em; border-radius: 50% }
+.ipad { width: 22em; height: 30em; bottom: 3em; right: 5em; border-radius: 1.7em }
+.iphone { width: 10em; height: 20em; bottom: 1em; right: 0; border-radius: 1.9em }
+.iphone::after { content: ""; position: absolute; top: 1.5em; left: 35%; width: 30%; height: .7em; background: #232630; border-radius: 1em }
+.watch { width: 9em; height: 11em; bottom: 4em; left: 5em; border-radius: 2.4em }
+.watch::before { content: ""; position: absolute; z-index: -1; inset: -4em 1.7em; background: #736580; border-radius: 1.5em }
+.devices { isolation: isolate }
+.watch .screen { inset: 9%; background: radial-gradient(circle,#fff 0 4%,transparent 5%),conic-gradient(from 45deg,#8672ad,#e6a49f,#8672ad); animation: none }
+.watch .screen::after { content: ""; position: absolute; top: 24%; left: 49%; width: 22%; height: 24%; border: solid white; border-width: 0 0 .35em .35em }
+@keyframes wallpaper { to { background-position: 100% 100% } }
+@media (prefers-reduced-motion: reduce) { .screen { animation: none } }

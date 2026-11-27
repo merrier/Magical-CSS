@@ -1,0 +1,83 @@
+/* Louis Harboe · https://web.archive.org/web/20100910/http://graphicpeel.com/cssiosicons
+   17CSS 图标与 Logo 合集 */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-size: cover;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.icon {
+  width: 176px;
+  height: 176px;
+  -webkit-border-radius: 30px;
+  background: #fff;
+  float: left;
+  margin: 50px;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.calculator {
+  background: #22211d;
+}
+
+.calculator .top-left, .top-right, .bottom-left, .bottom-right {
+  height: 85px;
+  width: 88px;
+  color: #fff;
+  text-align: center;
+  font-size: 62px;
+  text-shadow: 0px -1px 3px #000;
+  padding-top: 3px;
+}
+
+.calculator .vertical-divider {
+  z-index: 2;
+  width: 3px;
+  position: relative;
+  left: 85px;
+  height: 176px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 50%, from(#564539), to(#2f261f));
+}
+
+.calculator .horizontal-divider {
+  z-index: 1;
+  width: 176px;
+  height: 3px;
+  position: relative;
+  bottom: 90px;
+  background: #2f261f;
+  -webkit-box-shadow: 0px 2px 1px rgba(255, 255, 255, 0.3);
+}
+
+.calculator .top-left {
+  float: left;
+  -webkit-border-top-left-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b3a99f), to(#44372f));
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.5);
+}
+
+.calculator .top-right {
+  float: right;
+  -webkit-border-top-right-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b3a99f), to(#44372f));
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.5);
+}
+
+.calculator .bottom-left {
+  float: left;
+  -webkit-border-bottom-left-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#44372f), to(#22211d));
+}
+
+.calculator .bottom-right {
+  float: right;
+  -webkit-border-bottom-right-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c2783b), to(#7a371a));
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.icon { margin: 0; }

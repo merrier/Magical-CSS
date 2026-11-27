@@ -1,0 +1,79 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li a:link, li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#c55500;
+}
+
+li a:hover, li a:focus, li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before, li:after, li a:before, li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before, li a:after {
+    margin:-8px 0 0;
+    background:#c55500;
+}
+
+li a:hover:before, li a:focus:before, li a:active:before {
+    background:#730800;
+}
+
+.history a:before, .history a:after {
+    left:2px;
+    width:13px;
+    height:13px;
+    border:2px solid #c55500;
+    margin-top:-8px;
+    background:transparent;
+}
+
+.history a:before {
+
+    -webkit-border-radius:18px;
+    -moz-border-radius:18px;
+    border-radius:18px;
+}
+
+.history a:after {
+    left:10px;
+    width:4px;
+    height:5px;
+    border-width:0 0 2px 2px;
+    margin-top:-5px;
+    background:transparent;
+}
+
+.history a:hover:before, .history a:focus:before, .history a:active:before, .history a:hover:after, .history a:focus:after, .history a:active:after {
+    border-color:#730800;
+    background:transparent;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

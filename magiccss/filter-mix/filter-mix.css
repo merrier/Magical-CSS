@@ -1,0 +1,67 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L2137 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.filter-mix{
+  position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;height: 200px;
+  -webkit-filter:contrast(20);
+  background:#fff;
+}
+.filter-mix::before{
+  content:"";
+  position: absolute;
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+  background:#333;
+  top:40px;
+  left:0px;
+  z-index:2;
+  -webkit-filter:blur(6px);
+  box-sizing:border-box;
+  animation:filterBallMove 10s ease-out infinite;
+  -webkit-animation:filterBallMove 10s ease-out infinite;
+}
+.filter-mix::after{
+  content:"";
+  position: absolute;
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  background:#3F51B5;
+  top:60px;
+  right:0px;
+  z-index:2;
+  -webkit-filter:blur(6px);
+  animation:filterBallMove2 10s ease-out infinite;
+  -webkit-animation:filterBallMove2 10s ease-out infinite;
+
+}
+
+@keyframes filterBallMove{
+  50%{
+    left:200px;
+  }
+}
+
+@-webkit-keyframes filterBallMove{
+  50%{
+    left:200px;
+  }
+}
+
+@keyframes filterBallMove2{
+  50%{
+    right:200px;
+  }
+}
+
+@-webkit-keyframes filterBallMove2{
+  50%{
+    right:200px;
+  }
+}

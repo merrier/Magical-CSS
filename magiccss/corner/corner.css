@@ -1,0 +1,30 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L392 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.corner{
+  position: absolute;
+  top:50%;left: 50%;
+  transform:translate(-50%,-50%);
+  width: 120px;line-height:120px;
+  padding:40px;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  background:linear-gradient(-150deg,transparent 1.5em, yellowgreen  0);
+  border-radius:.5em;
+}
+.corner:before{
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  background:
+  linear-gradient(to left bottom,transparent 50%, rgba(0,0,0,.2) 0, rgba(0,0,0,.4)) 100% 0 no-repeat;
+  width: 1.73em; height: 3em;
+  transform: translateY(-1.3em) rotate(-30deg);
+  transform-origin: bottom right;
+  border-bottom-left-radius: inherit;
+  box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.15);
+}

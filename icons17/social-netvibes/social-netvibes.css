@@ -1,0 +1,73 @@
+/* Nicolas Gallagher · https://web.archive.org/web/20100910/http://nicolasgallagher.com/demo/pure-css-social-media-icons/
+   Dual licensed under MIT and GNU GPLv2 © Nicolas Gallagher */
+body {
+  padding: 0;
+  margin: 0;
+  font: 1em/1.4 Cambria, Georgia, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font: 0.875em/1 Arial, sans-serif;
+}
+
+ul li {
+  float: left;
+  width: 66px;
+  height: 66px;
+  margin: 20px 20px 0 0;
+}
+
+ul li a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  line-height: 64px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul li a:hover, ul li a:focus, ul li a:active {
+  opacity: 0.8;
+  border-color: #000;
+}
+
+.netvibes a {
+  position: relative;
+  border-color: #0c5f0c;
+  text-align: center;
+  text-indent: -9000px;
+  font-size: 178px;
+  font-weight: bold;
+  color: #fff;
+  background: #138210;
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#68db21), to(#138210));
+  background: -moz-linear-gradient(top, #68db21, #138210);
+}
+
+.netvibes a:after {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 64px;
+  text-indent: 0;
+  text-align: center;
+  font-size: 88px;
+  color: #fff;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.content ul { width: auto; padding: 0; margin: 0; }

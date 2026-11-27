@@ -1,0 +1,56 @@
+* { box-sizing: border-box }
+:root { color-scheme: light dark; font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; color: light-dark(#22212b, #efedf3); background: light-dark(#fcfbf8, #1b1a20) }
+html[data-theme="light"] { color-scheme: light }
+html[data-theme="dark"] { color-scheme: dark }
+.header-actions { flex: 1 0 auto; display: flex; justify-content: flex-end; align-items: center; gap: 12px }
+.header-actions select { padding: 6px; border: 1px solid light-dark(#ccc8c3, #605967); border-radius: 7px; font: inherit; color: inherit; background-color: light-dark(white, #2a272f); cursor: pointer }
+body { margin: 0 }
+header, main { width: min(1160px, 90%); margin: auto }
+header, .dialog-head, .meta, nav, #files { display: flex; align-items: center; gap: 12px }
+header, .dialog-head, .meta { justify-content: space-between }
+header { flex-wrap: wrap; padding-block: 10px; min-height: 72px; border-bottom: 1px solid light-dark(#d9d6d1, #48434e); font-size: 14px }
+a { color: inherit; text-underline-offset: 4px }
+header a { text-decoration: none }
+.brand { font-weight: 750; font-size: 20px; letter-spacing: -.04em }
+.brand b { color: light-dark(#6347bf, #bba3ff); margin-right: 6px }
+main { padding: 0 0 64px }
+#count, .meta { color: light-dark(#655f64, #bcb5c2) }
+.tools { display: grid; grid-template-columns: minmax(0,1fr); gap: 16px; border-bottom: 1px solid light-dark(#d9d6d1, #48434e); padding: 14px 0 }
+nav, #files { gap: 5px; flex-wrap: wrap }
+button, input { font: inherit }
+button { cursor: pointer; color: inherit }
+:where(nav, #files) button { border: 0; background: transparent; padding: 7px 15px; border-radius: 20px; font-size: 14px }
+button[aria-pressed="true"] { color: light-dark(white, #241c30); background: light-dark(#302a3c, #d6c4f6) }
+.search { display: flex; align-items: center; gap: 8px; padding: 6px 12px; border: 1px solid light-dark(#ccc8c3, #605967); border-radius: 7px; background: light-dark(white, #2a272f) }
+.search span { font: 24px/1 sans-serif }
+.search:focus-within { outline: 3px solid #8a62cd; outline-offset: 2px }
+.search input { flex: 1; min-width: 0; outline: none; border: 0; background: transparent; font-size: 14px }
+#count { font-size: 13px; margin: 19px 0 12px }
+#grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(min(270px,100%),1fr)); gap: 28px 22px }
+article { min-width: 0; max-width: 500px }
+.cover { display: flex; align-items: center; justify-content: center; padding: 0; width: 100%; height: clamp(210px,21vw,280px); border: none; border-radius: 10px; background: var(--paper); overflow: hidden }
+.cover img { width: 80%; height: 80%; object-fit: contain }
+.cover:hover img { transform: scale(1.025) }
+article h2 { margin: 12px 0 6px; font-size: 21px; letter-spacing: -.035em }
+.meta { font-size: 13px }
+.meta a { overflow-wrap: anywhere }
+.inspect { border: 0; padding: 4px 0; color: light-dark(#574183, #cab0f4); background: transparent }
+dialog { width: min(830px,94vw); border: 1px solid light-dark(#cbc5d4, #605967); border-radius: 14px; padding: 22px; color: inherit }
+dialog::backdrop { background: #211c2cb3 }
+.dialog-head { margin-bottom: 12px }
+.dialog-head h2 { margin: 0 }
+#close { border: none; background: light-dark(#efedf2, #46404e); border-radius: 50%; width: 36px; height: 36px; font-size: 21px }
+.code-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 6px; flex-wrap: wrap }
+#copy-code { margin-left: auto; border: 1px solid light-dark(#ccc8c3, #605967); border-radius: 7px; padding: 6px 10px; background: transparent; font-size: 14px }
+#copy-code:disabled { opacity: .55; cursor: default }
+#editor { margin-top: 12px; border-radius: 8px; overflow: hidden }
+.cm-s-gallery.CodeMirror { height: min(52vh,520px); font: 13px/1.6 ui-monospace,monospace; color: light-dark(#282433,#f1edf6); background: light-dark(#f6f5f9,#23222d) }
+.cm-s-gallery .CodeMirror-gutters { background: light-dark(#edeaf2,#292833); border-color: light-dark(#d4cfde,#464250) }
+.cm-s-gallery .CodeMirror-linenumber, .cm-s-gallery .cm-comment { color: light-dark(#625c70,#b7afc4) }
+.cm-s-gallery .cm-tag, .cm-s-gallery .cm-qualifier, .cm-s-gallery .cm-builtin { color: light-dark(#82317a,#f1a7dc) }
+.cm-s-gallery .cm-property, .cm-s-gallery .cm-attribute { color: light-dark(#194f89,#94caff) }
+.cm-s-gallery .cm-number, .cm-s-gallery .cm-atom { color: light-dark(#864400,#ffc580) }
+.cm-s-gallery .cm-string, .cm-s-gallery .cm-keyword { color: light-dark(#126057,#88dec7) }
+.cm-s-gallery .cm-variable-2, .cm-s-gallery .cm-def, .cm-s-gallery .cm-meta { color: light-dark(#644394,#cbb4ff) }
+:focus-visible { outline: 3px solid #8a62cd; outline-offset: 2px }
+@media(max-width: 600px) { nav { flex-wrap: nowrap; overflow-x: auto; padding-block: 5px } nav button { flex: none; padding-inline: 12px } }

@@ -1,0 +1,27 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L474
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}

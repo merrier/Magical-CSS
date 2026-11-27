@@ -1,0 +1,184 @@
+/* Justin Sepulveda · https://web.archive.org/web/20100910/http://robustnessiskey.com/csslogos
+   17CSS 图标与 Logo 合集 */
+.logo {
+  background-color: #fff;
+  margin: 5em auto;
+  font-size: 100%;
+  width: 34em;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.logo li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 100;
+}
+
+#dribbble {
+  font-size: 4px;
+  background-image: -webkit-gradient(linear, 80% 0%, 100% 80%, from(#ff7aa6), to(#E74B82));
+  background-image: -moz-linear-gradient(80% 100% 80deg,#ff7aa6, #E74B82 100%);
+  border: 1.7em solid #C5376D;
+  overflow: hidden;
+  position: relative;
+  height: 18em;
+  width: 18em;
+  -webkit-border-radius: 20em;
+  -webkit-transform: rotate(-15deg);
+  -moz-border-radius: 20em;
+  -moz-transform: rotate(-15deg);
+  border-radius: 20em;
+  transform: rotate(-15deg);
+}
+
+#dribbble:active {
+  -webkit-transform: rotate(-17deg) scale(2);
+  -moz-transform: rotate(-17deg) scale(2);
+  transform: rotate(-17deg) scale(2);
+}
+
+#dribbble li {
+  background: transparent;
+  border: 1.7em solid #C5376D;
+  position: absolute;
+}
+
+#dribbble li:first-child {
+  height: 60em;
+  width: 60em;
+  left: -51em;
+  top: -20em;
+  z-index: 3;
+  -webkit-border-radius: 60em;
+  -moz-border-radius: 60em;
+  border-radius: 60em;
+}
+
+#dribbble li:nth-child(2) {
+  border: 1.7em solid rgba(255,255,255,.1);
+  border-top: transparent;
+  border-bottom: transparent;
+  height: 59em;
+  width: 59em;
+  left: -49.5em;
+  top: -18em;
+  z-index: 1;
+  -webkit-border-radius: 59em;
+  -moz-border-radius: 59em;
+  border-radius: 59em;
+}
+
+#dribbble li:nth-child(3) {
+  border-right: transparent;
+  height: 60em;
+  width: 60em;
+  left: -23.5em;
+  top: -55em;
+  z-index: 2;
+  -webkit-border-radius: 60em;
+  -moz-border-radius: 60em;
+  border-radius: 60em;
+}
+
+#dribbble li:nth-child(4) {
+  border: 1.7em solid rgba(255,255,255,.1);
+  border-right: transparent;
+  height: 59em;
+  width: 59em;
+  left: -23em;
+  top: -53.5em;
+  z-index: 1;
+  -webkit-border-radius: 59em;
+  -moz-border-radius: 59em;
+  border-radius: 59em;
+}
+
+#dribbble li:nth-child(5) {
+  border-left: transparent;
+  height: 30em;
+  width: 30em;
+  left: -3em;
+  top: 10em;
+  z-index: 2;
+  -webkit-border-radius: 30em;
+  -moz-border-radius: 30em;
+  border-radius: 30em;
+}
+
+#dribbble li:nth-child(6) {
+  border: 1.7em solid rgba(255,255,255,.1);
+  border-left: transparent;
+  height: 29em;
+  width: 29em;
+  left: -2.5em;
+  top: 10.5em;
+  z-index: 1;
+  -webkit-border-radius: 29em;
+  -moz-border-radius: 29em;
+  border-radius: 29em;
+}
+
+#dribbble li:nth-child(7) {
+  background-color: #FBA0C1;
+  border: 0;
+  height: 12em;
+  width: 12em;
+  left: 4em;
+  top: -.2em;
+  opacity: 0.4;
+  z-index: 1;
+  -webkit-border-radius: 4em 12em 4em 12em;
+  -webkit-transform: rotate(-30deg);
+  -moz-border-radius: 4em 12em 4em 12em;
+  -moz-transform: rotate(-30deg);
+  border-radius: 4em 12em 4em 12em;
+  transform: rotate(-30deg);
+}
+
+#dribbble li:nth-child(8) {
+  height: 18em;
+  width: 18em;
+  top: -1.7em;
+  left: -1.7em;
+  z-index: 3;
+  -webkit-border-radius: 20em;
+  -webkit-transform: rotate(-15deg);
+  -moz-border-radius: 20em;
+  -moz-transform: rotate(-15deg);
+  border-radius: 20em;
+  transform: rotate(-15deg);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.logo { margin: 0; font-size: 9px; }

@@ -1,0 +1,106 @@
+/* Justin Sepulveda · https://web.archive.org/web/20100910/http://robustnessiskey.com/csslogos
+   17CSS 图标与 Logo 合集 */
+.logo {
+  background-color: #fff;
+  margin: 5em auto;
+  font-size: 100%;
+  width: 34em;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.logo li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 100;
+}
+
+#chase {
+  font-size: 1.8em;
+  height: 14em;
+  width: 6em;
+  margin-top: 2em;
+}
+
+#chase li {
+  background-color: #2f98d2;
+  width: 6em;
+  height: 5em;
+  position: relative;
+  -webkit-border-top-left-radius: .5em;
+  -moz-border-radius-topleft: .5em;
+  background-image: -moz-linear-gradient(0% 0% 0deg, #1d7baf, #2f98d2);
+  background-image: -webkit-gradient(linear, 0% 20%, 80% 0%, from(#1d7baf), to(#2f98d2));
+}
+
+#chase li:after {
+  border-color: transparent transparent transparent  #2f98d2;
+  content: " ";
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 5.98em;
+  width: 0;
+  height: 0;
+  border-width: 5em 0 0 5em;
+  border-style: solid;
+}
+
+#chase li:first-child {
+  top: 0;
+  left: 0;
+}
+
+#chase li:nth-child(2) {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  top: 1em;
+  left: 5.55em;
+}
+
+#chase li:nth-child(3) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  top: 1.6em;
+  left: -0.5em;
+}
+
+#chase li:last-child {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  top: -9.45em;
+  left: -6em;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.logo { margin: 0; font-size: 9px; }

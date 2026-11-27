@@ -1,0 +1,32 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L852
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.chevron {
+    position: relative;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 3px;
+    height: 30px;
+    width: 100px;
+}
+.chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: red;
+    transform: skew(0deg, 6deg);
+}
+.chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: red;
+    transform: skew(0deg, -6deg);
+}

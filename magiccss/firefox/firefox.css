@@ -1,0 +1,65 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L1985 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.firefox{
+  position: absolute;
+  top: 50%;left: 50%;
+  width: 200px;height:200px;
+  transform: translate(-50%, -50%);
+  border:8px solid #eee;
+  border-radius:50%;
+  overflow:hidden;
+  background:#F48D00;
+  box-shadow:0 0 2px 0 #999;
+}
+.firefox::before{
+  content: "";
+  width: 46px;
+  height: 46px;
+  background: #A4DFEF;
+  border-radius: 100%;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  margin: auto;
+  border: 1px solid #A4DFEF;
+  box-shadow:
+    -10px 0 0 5px rgba(164, 223, 239, .2),
+    16px -60px 0 8px rgba(164, 223, 239, .2),
+    -30px -50px 0 8px #F48D00,
+    25px -38px 0 0px #A4DFEF,
+    -30px -30px 0 12px #F48D00,
+    15px -60px 0 8px #A4DFEF,
+    33px 31px 0 -15px #A4DFEF,
+    30px 17px 0 -13px #F48D00,
+    20px -10px 0 0px #A4DFEF,
+    -8px -0px 0 19px #F48D00,
+    30px 17px 0 0px #A4DFEF,
+    24px 30px 0 15px #F48D00,
+    20px -6px 0 28px #A4DFEF,
+    45px 10px 0 35px #F48D00,
+    -5px -57px 0 8px #F48D00,
+    20px -23px 0 45px #A4DFEF,
+    -5px -80px 0 8px #A4DFEF,
+    -30px -70px 0 8px #F48D00,
+    -5px -57px 0 8px #F48D00,
+    43px -11px 0 55px #F48D00,
+    22px -39px 0 55px #A4DFEF;
+}
+.firefox::after{
+  content: "";
+  width: 0px;
+  height: 2px;
+  background: linear-gradient(90deg,#F48D00 75% ,#333 30% );
+  background-size: 35px 35px;
+  position: absolute;
+  top: 50px;
+  left: 73px;
+  margin: auto;
+  border: solid;
+  border-width: 12px 0 15px 30px;
+  border-color: #A4DFEF #fff #A4DFEF transparent;
+  box-shadow: inset 0px 0 0 50px #333;
+}

@@ -1,0 +1,16 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L645
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 40px solid transparent;
+    border-top: 40px solid red;
+    border-left: 40px solid red;
+    border-bottom: 40px solid red;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

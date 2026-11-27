@@ -1,0 +1,31 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L375
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.octagon {
+    width: 80px;
+    height: 30px;
+    background: red;
+    position: relative;
+}
+.octagon:before {
+    content: "";
+    width: 32px;
+    height: 0;
+    position: absolute;
+    top: -24px;
+    border-bottom: 24px solid red;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+}
+.octagon:after {
+    content: "";
+    width: 32px;
+    height: 0;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    border-top: 24px solid red;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+}

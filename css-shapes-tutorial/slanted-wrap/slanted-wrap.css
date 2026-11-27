@@ -1,0 +1,9 @@
+/* ChokCoco · https://www.cnblogs.com/coco1s/p/6992177.html
+   本地改编 · https://codepen.io/Chokcoco/pen/NgqZqX */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+main { width: min(85vw, 300px); height: 230px; overflow: hidden; font: 14px/18px sans-serif; color: #39523a; text-align: justify; }
+i, b { float: left; }
+i,b { width: 50%; height: 100%; }
+i { shape-outside: polygon(0 0, 85% 0, 10% 100%, 0 100%); }
+b { float: right; shape-outside: polygon(90% 0, 100% 0, 100% 100%, 10% 100%); }

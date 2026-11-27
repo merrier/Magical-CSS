@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>哈士奇与狐狸 · CSS + SVG</title>
+  <link rel="stylesheet" href="husky_fox.css">
+</head>
+<body>
+  <!-- 本地重新绘制。灵感来自 David Khourshid 的 Animated Animals。 -->
+  <svg viewBox="0 0 420 245" role="img" aria-labelledby="drawing">
+    <title id="drawing">一只摇尾巴的狐狸和一只侧头的哈士奇并排坐着</title>
+    <g fill="#b5d3c8">
+      <ellipse cx="121" cy="202" rx="65" ry="7"/>
+      <ellipse cx="294" cy="202" rx="72" ry="7"/>
+    </g>
+    <g fill="#49566c">
+      <path d="M76 190 Q75 144 98 130 L146 130 Q165 152 165 190 Q165 201 153 201 H87 Q76 201 76 190Z"/>
+      <path fill="#fff9eb" d="M96 141 Q121 160 148 141 Q147 172 122 188 Q97 171 96 141Z"/>
+      <g class="husky-head">
+        <path d="M66 100 L63 38 Q65 29 73 36 L102 61 Q122 54 145 61 L174 36 Q182 30 181 42 L178 100 Q190 149 122 157 Q56 150 66 100Z"/>
+        <path fill="#deaaa9" d="M72 48 L76 78 L91 65Z M171 48 L153 65 L169 78Z"/>
+        <path fill="#fff9eb" d="M64 105 Q74 81 95 94 L115 110 Q121 84 124 84 Q129 88 132 110 L150 94 Q172 83 180 106 Q181 143 122 154 Q68 148 64 105Z"/>
+        <g fill="#273344"><circle cx="98" cy="112" r="4"/><circle cx="148" cy="112" r="4"/>
+          <path d="M114 123 Q122 119 130 123 Q126 132 122 132 Q117 130 114 123Z"/>
+        </g>
+        <path d="M122 132 Q120 140 114 136 M122 132 Q125 140 131 136" class="mouth"/>
+      </g>
+    </g>
+    <g fill="#d86a36">
+      <g class="fox-tail">
+        <path d="M297 184 Q344 177 361 119 Q394 155 364 185 Q343 208 297 195Z"/>
+        <path fill="#fff3db" d="M351 145 Q357 133 361 119 Q378 138 377 154 L366 149 L365 158Z"/>
+      </g>
+      <path d="M239 192 Q241 147 261 128 H296 Q318 152 322 193 Q320 202 310 202 H249 Q240 202 239 192Z"/>
+      <path fill="#fff3db" d="M255 144 L279 155 L303 144 Q299 169 279 186 Q259 169 255 144Z"/>
+      <g class="fox-head">
+        <path d="M226 96 L222 45 Q222 37 230 44 L256 68 Q278 61 298 68 L326 44 Q333 39 333 47 L330 96 L337 107 Q308 125 280 152 Q254 128 220 109Z"/>
+        <path fill="#6e413a" d="M230 52 L234 79 L248 71Z M325 53 L307 71 L322 79Z"/>
+        <path fill="#fff3db" d="M220 109 Q256 103 280 134 Q304 102 337 107 Q307 129 280 152 Q252 130 220 109Z"/>
+        <path class="mouth" d="M245 105 Q252 111 259 104 M300 104 Q307 111 314 104"/>
+        <path fill="#352f35" d="M274 143 Q280 140 286 143 L280 151Z"/>
+      </g>
+    </g>
+  </svg>
+</body>
+</html>

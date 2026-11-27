@@ -1,0 +1,23 @@
+/* ForestMist 原作；本地据 17CSS 存档图例重绘 · https://web.archive.org/web/20100910/http://forestmist.org/experimental/bahamas-logo-using-css3/
+   17CSS 图标与 Logo 合集 */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; }
+.islands { position: relative; width: 186px; height: 160px; }
+.islands i { position: absolute; box-sizing: border-box; }
+.islands i:nth-child(1) { left: 12px; top: 27px; width: 12px; height: 12px; border-radius: 50%; border: 4px solid #57a267; }
+.islands i:nth-child(2) { left: 35px; top: 4px; width: 14px; height: 14px; border-radius: 60% 0 60% 60%; border: 4px solid #ed7332; }
+.islands i:nth-child(3) { left: 52px; top: 8px; width: 18px; height: 18px; border-radius: 0 65% 0 65%; background: #f8a128; }
+.islands i:nth-child(4) { left: 42px; top: 21px; width: 7px; height: 7px; border-radius: 50%; background: #df7781; }
+.islands i:nth-child(5) { left: 30px; top: 29px; width: 44px; height: 44px; border-radius: 60% 0 60% 60%; border: 5px solid #ffc107; }
+.islands i:nth-child(6) { left: 76px; top: 30px; width: 18px; height: 18px; border-radius: 0 65% 0 65%; border: 5px solid #e73a32; }
+.islands i:nth-child(7) { left: 84px; top: 53px; width: 13px; height: 13px; border-radius: 50%; background: #b64368; }
+.islands i:nth-child(8) { left: 87px; top: 69px; width: 7px; height: 7px; border-radius: 50%; background: #c65068; }
+.islands i:nth-child(9) { left: 95px; top: 76px; width: 5px; height: 5px; border-radius: 50%; background: #c65068; }
+.islands i:nth-child(10) { left: 102px; top: 39px; width: 14px; height: 14px; border-radius: 50%; background: #8887b3; }
+.islands i:nth-child(11) { left: 101px; top: 54px; width: 27px; height: 27px; border-radius: 0 65% 0 65%; border: 5px solid #4389bd; }
+.islands i:nth-child(12) { left: 132px; top: 71px; width: 12px; height: 12px; border-radius: 50%; background: #366282; }
+.islands i:nth-child(13) { left: 112px; top: 86px; width: 17px; height: 17px; border-radius: 60% 0 60% 60%; background: #69c4ba; }
+.islands i:nth-child(14) { left: 131px; top: 86px; width: 20px; height: 20px; border-radius: 0 65% 0 65%; background: #70a7bd; }
+.islands i:nth-child(15) { left: 139px; top: 109px; width: 11px; height: 11px; border-radius: 50%; border: 3px solid #70a7bd; }
+.islands i:nth-child(16) { left: 161px; top: 109px; width: 14px; height: 14px; border-radius: 50%; background: #ae792f; }
+.islands i:nth-child(17) { left: 136px; top: 131px; width: 16px; height: 16px; border-radius: 60% 0 60% 60%; border: 3px solid #8db24e; }
+

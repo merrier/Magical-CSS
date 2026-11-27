@@ -1,0 +1,76 @@
+/* insicdesigns · https://web.archive.org/web/20100910/http://blog.insicdesigns.com/2010/03/create-social-media-icons-in-pure-css/
+   17CSS 图标与 Logo 合集 */
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #262626;
+  margin: 20px;
+  padding: 0;
+  background: #efefef;
+}
+
+.fl {
+  float: left;
+  margin-right: 20px;
+}
+
+#orkut {
+  background: rgba(248,249,250,1);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(248,249,250,1)), to(rgba(206,221,246,1)));
+  background: -moz-linear-gradient(top, rgba(248,249,250,1), rgba(206,221,246,1));
+  color: #b62b91;
+  text-align: center;
+  border-color: #b4c4dd;
+  border-style: solid;
+  font-weight: normal;
+  font-size: 108px;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+#orkut div {
+  background: rgba(215,121,192,1);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(215,121,192,1)), to(rgba(182,43,145,1)));
+  background: -moz-linear-gradient(top, rgba(215,121,192,1), rgba(182,43,145,1));
+  position: absolute;
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 84px;
+  -moz-border-radius: 84px;
+  top: 9px;
+  left: 9px;
+}
+
+#orkut div span {
+  background: rgba(248,249,250,1);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(248,249,250,1)), to(rgba(206,221,246,1)));
+  background: -moz-linear-gradient(top, rgba(248,249,250,1), rgba(206,221,246,1));
+  position: absolute;
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  border: 0px solid #fff;
+  width: 31px;
+  height: 31px;
+  border-radius: 31px;
+  -moz-border-radius: 31px;
+  top: 6px;
+  left: 6px;
+}
+
+.s64 {
+  width: 64px;
+  height: 64px;
+  border-width: 1px;
+  line-height: 64px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

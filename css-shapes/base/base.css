@@ -1,0 +1,24 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L1060
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.base {
+    background: red;
+    display: inline-block;
+    height: 33px;
+    margin-left: 12px;
+    margin-top: 33px;
+    position: relative;
+    width: 60px;
+}
+.base:before {
+    border-bottom: 21px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -21px;
+    width: 0;
+}

@@ -1,0 +1,94 @@
+/* Nicolas Gallagher · https://web.archive.org/web/20100910/http://nicolasgallagher.com/demo/pure-css-social-media-icons/
+   Dual licensed under MIT and GNU GPLv2 © Nicolas Gallagher */
+body {
+  padding: 0;
+  margin: 0;
+  font: 1em/1.4 Cambria, Georgia, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font: 0.875em/1 Arial, sans-serif;
+}
+
+ul li {
+  float: left;
+  width: 66px;
+  height: 66px;
+  margin: 20px 20px 0 0;
+}
+
+ul li a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  line-height: 64px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul li a:hover, ul li a:focus, ul li a:active {
+  opacity: 0.8;
+  border-color: #000;
+}
+
+.flickr a {
+  position: relative;
+  border-color: #d2d2d2;
+  text-indent: -9000px;
+  font-size: 108px;
+  font-weight: bold;
+  color: #fff;
+  background: #fff;
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d2d2d2));
+  background: -moz-linear-gradient(top, #fff, #d2d2d2);
+}
+
+.flickr a:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  background: #085ec5;
+  border: 1px solid #003c84;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#005cc6), to(#003d83));
+  background: -moz-linear-gradient(top, #005cc6, #003d83);
+}
+
+.flickr a:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  width: 20px;
+  height: 20px;
+  margin: -10px -10px 0 0;
+  border: 1px solid #ba0060;
+  background: #fd1e93;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fd1e93), to(#cb026c));
+  background: -moz-linear-gradient(top, #fd1e93, #cb026c);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.content ul { width: auto; padding: 0; margin: 0; }

@@ -1,0 +1,5 @@
+/* 本地据 17CSS 存档图例重绘 · https://web.archive.org/web/20100910/http://lucianmarin.com/peculiar/
+   17CSS 图标与 Logo 合集 */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; }
+i { display: block; width: 84px; height: 58px; border: 7px solid; border-radius: 7px; box-shadow: 14px 14px white, 20px 20px currentColor; }
+

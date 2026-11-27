@@ -1,0 +1,39 @@
+/* CSS.GG 2.0.0 (MIT) · 对应 Peculiar 题材 · https://web.archive.org/web/20100910/http://lucianmarin.com/peculiar/
+   Copyright (c) 2019 css.gg · https://github.com/astrit/css.gg · see ../CSS-GG-LICENSE */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; }
+body { --ggs: 5; color: #24242c; }
+.gg-profile,
+.gg-profile::after,
+.gg-profile::before {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 100px
+}
+
+.gg-profile {
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    position: relative
+}
+
+.gg-profile::after,
+.gg-profile::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 8px;
+    height: 8px
+}
+
+.gg-profile::after {
+    border-radius: 200px;
+    top: 11px;
+    left: 0px;
+    width: 18px;
+    height: 18px
+}
+

@@ -1,0 +1,14 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L1215
+   https://blog.csdn.net/liu_jiachen/article/details/78634457 */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.btn-close{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(white, white) center / 24px 4px no-repeat,
+                linear-gradient(white, white) center / 4px 24px no-repeat black;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: rotate(45deg);
+}

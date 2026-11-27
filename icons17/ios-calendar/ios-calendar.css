@@ -1,0 +1,65 @@
+/* Louis Harboe · https://web.archive.org/web/20100910/http://graphicpeel.com/cssiosicons
+   17CSS 图标与 Logo 合集 */
+body, div, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-size: cover;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.icon {
+  width: 176px;
+  height: 176px;
+  -webkit-border-radius: 30px;
+  background: #fff;
+  float: left;
+  margin: 50px;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.calendar {
+  background: #9B2424;
+}
+
+.calendar .header {
+  -webkit-border-top-left-radius: 30px;
+  -webkit-border-top-right-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEC4C4), to(#521B1C), color-stop(.92,#da3434),color-stop(.1,#ef9fa5));
+  height: 50px;
+  width: 176px;
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.4);
+}
+
+.calendar p.weekday {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+  width: 176px;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.calendar p.daynumber {
+  color: #000;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #fff;
+  width: 176px;
+  line-height: 126px;
+  font-size: 130px;
+  text-align: center;
+}
+
+.calendar .paper {
+  -webkit-border-bottom-left-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7A7A7A), to(#EDEDED), color-stop(.05,#BFBFBF),color-stop(.2,#E3E3E3));
+  height: 126px;
+  width: 176px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.icon { margin: 0; }

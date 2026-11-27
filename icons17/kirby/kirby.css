@@ -1,0 +1,149 @@
+/* Drew · https://web.archive.org/web/20100910/http://www.legendofdrew.com/css-shape-creations/
+   17CSS 图标与 Logo 合集 */
+#kirby {
+  height: 105px;
+  width: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+#kirby .body {
+  background: #F093A8;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  margin-left: 10px;
+}
+
+#kirby .mouth {
+  background: #6E3136;
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius: 5px 5px 15px 15px;
+  overflow: hidden;
+}
+
+#kirby .tongue {
+  background: #FC827D;
+  height: 6px;
+  margin-top: 4px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+#kirby .leftfoot, #kirby .rightfoot {
+  background: #95294D;
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  z-index: -1;
+}
+
+#kirby .leftfoot {
+  left: 5px;
+  bottom: 0;
+  -webkit-border-top-left-radius: 30px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius: 30px 10px 10px 10px;
+}
+
+#kirby .rightfoot {
+  right: 5px;
+  bottom: 0;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius: 10px 30px 10px 10px;
+}
+
+#kirby .lefthand, #kirby .righthand {
+  background: #F093A8;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  z-index: -1;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
+#kirby .lefthand {
+  left: 0;
+  top: 35%;
+}
+
+#kirby .righthand {
+  right: 0;
+  top: 35%;
+}
+
+#kirby .leftcheek, #kirby .rightcheek {
+  background: #DC5E84;
+  height: 8px;
+  width: 20px;
+  position: absolute;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  top: 40%;
+}
+
+#kirby .leftcheek {
+  left: 15%;
+}
+
+#kirby .rightcheek {
+  right: 15%;
+}
+
+#kirby .lefteye, #kirby .righteye {
+  background: #000;
+  height: 30px;
+  width: 10px;
+  position: absolute;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  top: 16%;
+}
+
+#kirby .lefteye {
+  left: 35%;
+}
+
+#kirby .righteye {
+  right: 35%;
+}
+
+#kirby .white {
+  height: 12px;
+  margin: 1px;
+  background: #FFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#kirby .blue {
+  height: 15px;
+  margin: 1px;
+  background: #4A4690;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#kirby .bluecover {
+  height: 7px;
+  width: 80%margin:2px;
+  background: #000;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

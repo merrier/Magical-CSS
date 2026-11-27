@@ -1,0 +1,148 @@
+/* Justin Sepulveda · https://web.archive.org/web/20100910/http://robustnessiskey.com/csslogos
+   17CSS 图标与 Logo 合集 */
+.logo {
+  background-color: #fff;
+  margin: 5em auto;
+  font-size: 100%;
+  width: 34em;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.logo li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 100;
+}
+
+#bmw {
+  background-image: -moz-linear-gradient(0% 10% 320deg, #555, #111);
+  background-image: -webkit-gradient(linear, 0% 0%, 50% 80%, from(#555), to(#111));
+  height: 34em;
+  border: .5em solid #666;
+  -webkit-box-shadow: 0 0 1em rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 1em rgba(0,0,0,.5);
+  -webkit-border-radius: 34em;
+  -moz-border-radius: 34em;
+  border-radius: 34em;
+}
+
+#bmw li:last-child ul {
+  background-image: -moz-linear-gradient(20% 0% 320deg, #666, #444);
+  background-image: -webkit-gradient(linear, 0% 0%, 50% 80%, from(#666), to(#444));
+  width: 14.8em;
+  height: 14.8em;
+  margin-top: 4.7em;
+  margin-left: 4.7em;
+  padding: .25em;
+  -webkit-border-radius: 15em;
+  -moz-border-radius: 15em;
+  border-radius: 15em;
+}
+
+#bmw li:last-child li {
+  float: left;
+  width: 6.8em;
+  height: 6.8em;
+}
+
+#bmw li:last-child li:first-child {
+  background-color: #56bbe5;
+  background-image: -moz-linear-gradient(80% 50% 135deg, #087bba, #56bbe5);
+  background-image: -webkit-gradient(linear, 80% 50%, 0% 0%, from(#087bba), to(#56bbe5));
+  margin-bottom: .5em;
+  margin-right: .5em;
+  margin-left: .4em;
+  margin-top: .4em;
+  -webkit-border-radius: 34em 0 0 0;
+  -moz-border-radius: 34em 0 0 0;
+}
+
+#bmw li:last-child li:nth-child(2) {
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(50% 80% 135deg, #fff, #dadada);
+  background-image: -webkit-gradient(linear, 50% 0%, 0% 80%, from(#fff), to(#dadada));
+  margin-bottom: .5em;
+  margin-top: .4em;
+  -webkit-border-radius: 0 34em 0 0;
+  -moz-border-radius: 0 34em 0 0;
+}
+
+#bmw li:last-child li:nth-child(3) {
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(80% 50% 135deg, #dadada, #fff);
+  background-image: -webkit-gradient(linear, 80% 0%, 0% 50%, from(#dadada), to(#fff));
+  margin-right: .5em;
+  margin-left: .4em;
+  -webkit-border-radius: 0 0 0 34em;
+  -moz-border-radius: 0 0 0 34em;
+  border-right: 0;
+}
+
+#bmw li:last-child li:last-child {
+  background-color: #56bbe5;
+  background-image: -moz-linear-gradient(50% 80% 135deg, #56bbe5, #087bba);
+  background-image: -webkit-gradient(linear, 50% 80%, 0% 0%, from(#56bbe5), to(#087bba));
+  -webkit-border-radius: 0 0 34em 0;
+  -moz-border-radius: 0 0 34em 0;
+}
+
+#bmw li:first-child {
+  font-weight: bold;
+  color: rgba(255,255,255,.9);
+  text-shadow: 2px 2px 0px #222;
+}
+
+#bmw li:first-child span {
+  display: block;
+  font-size: 6.5em;
+  position: absolute;
+}
+
+#bmw li:first-child span:first-child {
+  -webkit-transform: translate(.8em, 0.32em) rotate(-45deg);
+  -moz-transform: translate(.8em, 0.32em) rotate(-45deg);
+}
+
+#bmw li:first-child span:nth-child(2) {
+  -webkit-transform: translate(2.18em, -.25em) rotate(0deg);
+  -moz-transform: translate(2.18em, -0.25em) rotate(0deg);
+}
+
+#bmw li:first-child span:nth-child(3) {
+  -webkit-transform: translate(3.7em, 0.4em) rotate(45deg);
+  -moz-transform: translate(3.7em, 0.4em) rotate(45deg);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.logo { margin: 0; font-size: 9px; }

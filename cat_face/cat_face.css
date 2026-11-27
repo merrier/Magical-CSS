@@ -1,0 +1,307 @@
+/* Hans774882968 · https://github.com/Hans774882968/pure_css3_cat_face_anime */
+:root{
+    --board-size: 400px;
+    --eye-width: 300px;
+    --eye-circle-size: 100px;
+    --eye-hedding-width: 180px;
+    --face-red-width: 70px;
+    --face-pattern-width: 380px;
+    --nose-width: 30px;
+    --mouth-width: 200px;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7a7;
+}
+
+.cat{
+    position: relative;/*为猫耳朵的位置提供参考*/
+    width: var(--board-size);
+    height: 340px;
+    margin-top: 100px;
+}
+
+.cat-head{
+    position: relative;/*设置它是为了挡住猫耳朵*/
+    box-sizing: border-box;
+    width: var(--board-size);
+    height: 340px;
+    display: flex;
+    flex-direction: column;/*防止高度被拉伸*/
+    align-items: center;
+    background-color: #f6f7f2;
+    border: 2px solid black;
+    border-radius: 50% 50% 35% 35%;
+    overflow: hidden;/*隐藏额头的棱角*/
+}
+
+.ear{
+    --ear-width: 374px;
+    position: absolute;
+    top: -6px;/*以.cat的位置为参考*/
+    left: 50%;
+    margin-left: calc(-1 * var(--ear-width) / 2);/*居中*/
+    width: var(--ear-width);
+    height: 120px;
+}
+
+.ear > div{
+    position: absolute;/*以.ear的位置为参考*/
+    top: 0;
+    width: 160px;
+    height: 200px;
+    background-color: #F6F7F2;
+    border: 2px solid black;
+    transition: 1s;
+}
+
+.ear .left{
+    left: -20px;
+    border-radius: 4% 80% 0% 50%;
+    transform: rotate(-15deg);
+}
+
+.ear .right{
+    right: -20px;
+    border-radius: 80% 4% 50% 0%;
+    transform: rotate(15deg);
+}
+
+.cat:hover .ear .left{
+    left: -10px;
+    border-bottom-left-radius: 70%;
+    transform: rotate(0deg);
+}
+
+.cat:hover .ear .right{
+    right: -10px;
+    border-bottom-right-radius: 70%;
+    transform: rotate(0deg);
+}
+
+.eye{
+    position: absolute;
+    top: 200px;/*以.cat的位置为参考*/
+    left: 50%;
+    z-index: 1;
+    margin-left: calc(-1 * var(--eye-width) / 2);/*居中*/
+    width: var(--eye-width);
+    height: 60px;
+    overflow: hidden;/*隐藏眼眶的下半圆*/
+}
+
+.eye > .left,.eye > .right{
+    position: absolute;
+    width: var(--eye-circle-size);
+    height: var(--eye-circle-size);
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;/*使.hedding和眼球居中*/
+    box-sizing: border-box;
+}
+
+.eye .left{
+    left: 0;
+}
+
+.eye .right{
+    right: 0;
+}
+
+.eye .eyeball{
+    width: 30px;
+    background-color: black;
+    transition: 1s;
+}
+
+.eye [class$="hedding"]{/*绘制眼眶下半部分的曲线*/
+    position: absolute;
+    top: 52px;/*位置调整到与.left .right的圆弧拼接效果较好的地方即可*/
+    width: var(--eye-hedding-width);
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #f6f7f2;/*把眼球凸出的部分遮住*/
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.eye .left-hedding{
+    left: 0;
+    margin-left: calc((var(--eye-circle-size) - var(--eye-hedding-width)) / 2);
+}
+
+.eye .right-hedding{
+    right: 0;
+    margin-right: calc((var(--eye-circle-size) - var(--eye-hedding-width)) / 2);
+}
+
+.cat:hover .eye .eyeball{
+    width: 40px;
+}
+
+.cat:hover .eye [class$="hedding"]{
+    top: 30px;/*眼眶下半部分上移，但上半部分不动，营造眼睛缩小的效果*/
+}
+
+.forehead{
+    width: 180px;
+    border-radius: 0 0 50% 50%;
+    display: flex;/*使.left .right居于同一行*/
+    overflow: hidden;/*隐藏.left .right的棱角，配合border-radius实现底部圆形*/
+}
+
+.forehead > div{
+    width: 50%;/*两侧各占一半*/
+    height: 160px;
+}
+
+.forehead .left{
+    background-color: #f0ac6b;
+}
+
+.forehead .right{
+    background-color: #8d8d8d;
+}
+
+.face-red > div{
+    position: absolute;
+    top: 240px;/*参照.cat的位置*/
+    z-index: 1;
+    width: var(--face-red-width);
+    height: 28px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.face-red .left{
+    left: 50%;
+    margin-left: calc(-1 * (var(--board-size) - var(--eye-width) + var(--eye-circle-size) + var(--face-red-width)) / 2);
+}
+
+.face-red .right{
+    right: 50%;
+    margin-right: calc(-1 * (var(--board-size) - var(--eye-width) + var(--eye-circle-size) + var(--face-red-width)) / 2);
+}
+
+.cat:hover .face-red > div{
+    opacity: 1;
+    background-color: rgba(253,214,240);
+}
+
+.face-pattern{
+    position: absolute;
+    top: 190px;/*以.cat的位置为参考*/
+    left: 50%;
+    z-index: 1;
+    margin-left: calc(-1 * var(--face-pattern-width) / 2);/*居中*/
+    width: var(--face-pattern-width);
+    height: 80px;
+}
+
+.face-pattern > div:nth-child(1){
+    width: 30px;
+    height: 10px;
+    margin-left: 20px;
+    border-top: 6px solid #e53941;
+    border-radius: 30% 80% 20% 50%;
+    transform: rotate(25deg);
+}
+
+.face-pattern > div:nth-child(2){
+    width: 20px;
+    height: 6px;
+    margin-left: 20px;
+    background-color: #e53941;
+    border-radius: 50%;/*纯椭圆*/
+    transform: rotate(25deg);
+}
+
+.face-pattern > div:nth-child(3){
+    width: 30px;
+    height: 10px;
+    margin-left: 10px;
+    border-bottom: 4px solid #e53941;
+    border-radius: 30% 0 90% 30%;
+    transform: rotate(25deg);
+}
+
+.face-pattern > div:nth-child(4){
+    width: 26px;
+    height: 20px;
+    margin-left: 30px;/*按30度右下方向斜坡调整margin，直到接近2个眼角*/
+    margin-top: 22px;
+    border-bottom: 4px solid #e53941;
+    border-radius: 30% 0 90% 30%;
+    transform: rotate(30deg);
+}
+
+.face-pattern > div:nth-child(5){
+    width: 22px;
+    height: 10px;
+    margin-left: 40px;
+    margin-top: -8px;/*调整margin-top直到贴近4th花纹*/
+    border-bottom: 3px solid #e53941;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(-15deg);/*斜向右上*/
+}
+
+.face-pattern-right{
+    transform: rotateY(180deg);/*以Y轴为对称轴，即可复用左侧花纹样式*/
+}
+
+.nose{
+    position: absolute;
+    top: 252px;/*以.cat的位置为参考，调到接近眼眶底部的高度*/
+    left: 50%;
+    z-index: 1;
+    margin-left: calc(-1 * var(--nose-width) / 2);/*居中*/
+    width: var(--nose-width);
+    height: 10px;
+    border-bottom: 8px solid black;
+    border-radius: 0 0 50% 50%;
+}
+
+.mouth-box{
+    position: absolute;
+    top: calc(252px + 10px);
+    left: 50%;
+    margin-left: calc(-1 * var(--mouth-width) / 2);
+    overflow: hidden;
+}
+
+.mouth{
+    width: var(--mouth-width);/*.mouth宽度撑大.mouth-box宽度。该宽度>=(50+4)px*2即可。*/
+    margin-top: -15px;/*通过上移笑脸，使笑脸上部被遮住*/
+    display: flex;
+    justify-content: center;
+}
+
+.mouth > div{
+    width: 50px;
+    height: 40px;
+    border-bottom: 4px solid #2e2e2e;
+    transition: 1s;
+}
+
+.mouth .left{
+    border-left: 4px solid #2e2e2e;
+    border-radius: 40% 0 20% 50%;
+}
+
+.mouth .right{
+    border-right: 4px solid #2e2e2e;
+    border-radius: 0 40% 50% 20%;
+}
+
+.cat:hover .mouth > div{
+    width: 40px;
+    border-radius: 50% 50% 50% 50%;
+}

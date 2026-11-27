@@ -1,0 +1,274 @@
+/* Eric Meyer；中文演示：张鑫旭
+   https://www.zhangxinxu.com/wordpress/?p=1393 */
+#logo {
+	height: 512px; width: 362px;
+	display: block;
+	position: relative;
+	top: 2em; left: 50%; margin-left: -181px;
+}
+p {
+	padding-top: 3em;
+	text-align: center;
+}
+
+#logo div, #logo span {
+	text-indent: -9999px;
+}
+
+
+#H, #T, #M, #L {
+	position: absolute;
+	top: 0;
+	height: 13.48%;
+}
+#H {left: 9.06%; width: 18.68%;}
+#T {left: 30.49%; width: 17.58%;}
+#M {left: 50.82%; width: 21.43%;}
+#L {left: 75.55%; width: 15.38%;}
+
+#letters span {
+	display: block;
+	background: #000;
+	position: absolute;
+	top: 0;
+}
+#letters .v {
+	height: 100%;
+}
+#letters .h {
+	height: 33.333%; width: 100%;
+}
+
+#H .v {width: 33.82%;}
+#H .h {top: 33.333%;}
+#H .h + .v {right: 0;}
+#T .h {width: 100%;}
+#T .v {left: 32.81%; width: 35.94%;}
+#M .v {width: 29.49%;}
+#M .h {top: 18.84%; right: 49.9%; width: 22.33%; height: 50.72%;}
+#M .h + .h {left: 49.9%;}
+#M .h + .v {right: 0;}
+#L .v {width: 41.07%;}
+#L .h {top: auto; bottom: 0;}
+
+#shield {
+	position: absolute;
+	top: 19.53%; left: 0;
+	height: 80.47%; width: 100%;
+}
+#shield div {
+	position: absolute;
+}
+#shield span {
+	position: absolute;
+	background: rgb(89.4%,30.2%,14.9%);
+	height: 0; width: 0;
+}
+#shield .left, #shield .right {
+	top: 0; left: 0;
+	height: 100%; width: 50%;
+}
+#shield .right {
+	left: auto; right: 0;
+}
+#shield .wing {
+	top: 0; left: 0;
+	height: 89.05%; width: 100%;
+}
+#shield .base {
+	bottom: 0; left: 0;
+	height: 20%; width: 82.25%;
+
+}
+#shield .left .base {
+	left: auto; right: 0;
+}
+#shield .highlight {
+	top: 7.43%; left: 50%;
+	height: 85.11%; width: 41.43%;
+}
+#shield .highlight span {
+	background: rgb(94.5%,39.6%,16.1%);
+}
+#shield .highlight .spine {
+	top: 0; left: 0;
+	height: 90.83%; width: 81.21%;
+	z-index: 100;
+}
+#shield .highlight .wing {
+	height: 90.83%; width: 80.83%;
+	left: auto; right: 1%;
+}
+#shield .highlight .base {
+	left: 0; bottom: 0;
+	width: 81.21%;
+}
+
+#five {
+	position: absolute; z-index: 100;
+	top: 34.38%; left: 18.41%;
+	height: 50.39%; width: 62.91%;
+}
+#five div {
+	position: absolute;
+}
+#head, #topright, #middrop, #botright {
+	background: #FFF;
+}
+#topleft, #topdrop, #botleft, #tail {
+	background: rgb(235,235,235);
+}
+#head {
+	height: 17.44%; width: 10%;
+	right: 0;
+}
+#topright {
+	top: 0; left: 50%;
+	height: 17.44%; width: 44.54%;
+}
+#topleft {
+	top: 0; right: 50%;
+	height: 17.44%; width: 43.67%;
+}
+#midbar, #midbarhi {
+	top: 35.66%; left: auto; right: 50%;
+	height: 17.83%; width: 44.54%;
+	background: rgb(235,235,235);
+}
+#midbarhi {
+	left: 50%; right: auto;
+	background: #FFF;
+}
+#topdrop, #middrop {
+	height: 53.10%; width: 20.09%;
+}
+#middrop {
+	top: 35.66%; right: 3.43%;
+	height: 54.26%;
+}
+#botright, #botleft {
+	height: 18.60%; width: 40.61%;
+}
+#botright {
+	top: 76.34%;
+	left: 49.78%;
+}
+#botleft {
+	top: 76.34%;
+	right: 49.78%;
+}
+#tail {
+	top: 62.40%; left: 6.55%;
+	height: 27.91%; width: 20.09%;
+}
+
+/* transforms */
+#M .h {
+	-webkit-transform: skewY(57.4deg);
+	-moz-transform: skewY(57.4deg);
+	-o-transform: skewY(57.4deg);
+	-ms-transform: skewY(57.4deg);
+	transform: skewY(57.4deg);
+}
+#M .h + .h {
+	-webkit-transform: skewY(-57.4deg);
+	-moz-transform: skewY(-57.4deg);
+	-o-transform: skewY(-57.4deg);
+	-ms-transform: skewY(-57.4deg);
+	transform: skewY(-57.4deg);
+}
+
+#shield .left .wing {
+	-webkit-transform: skewX(5deg);
+	-moz-transform: skewX(5deg);
+	-o-transform: skewX(5deg);
+	-ms-transform: skewX(5deg);
+	transform: skewX(5deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#shield .left .base {
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	-webkit-transform: skewY(15.4deg);
+	-moz-transform: skewY(15.4deg);
+	-o-transform: skewY(15.4deg);
+	-ms-transform: skewY(15.4deg);
+	transform: skewY(15.4deg);
+}
+#five #head, #shield .right .wing, #shield .highlight .wing {
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	-o-transform-origin: 100% 0;
+	-ms-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+	-webkit-transform: skewX(-5deg);
+	-moz-transform: skewX(-5deg);
+	-o-transform: skewX(-5deg);
+	-ms-transform: skewX(-5deg);
+	transform: skewX(-5deg);
+}
+#shield .right .base, #shield .highlight .base {
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-webkit-transform: skewY(-15.4deg);
+	-moz-transform: skewY(-15.4deg);
+	-o-transform: skewY(-15.4deg);
+	-ms-transform: skewY(-15.4deg);
+	transform: skewY(-15.4deg);
+}
+
+#topdrop, #tail {
+	-webkit-transform: skewX(5deg);
+	-moz-transform: skewX(5deg);
+	-o-transform: skewX(5deg);
+	-ms-transform: skewX(5deg);
+	transform: skewX(5deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#middrop {
+	-webkit-transform: skewX(-5deg);
+	-moz-transform: skewX(-5deg);
+	-o-transform: skewX(-5deg);
+	-ms-transform: skewX(-5deg);
+	transform: skewX(-5deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	-o-transform-origin: 100% 0;
+	-ms-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+#botleft, #botright {
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+}
+#botleft {
+	-webkit-transform: skewY(15.4deg);
+	-moz-transform: skewY(15.4deg);
+	-o-transform: skewY(15.4deg);
+	-ms-transform: skewY(15.4deg);
+	transform: skewY(15.4deg);
+}
+#botright {
+	-webkit-transform: skewY(-15.4deg);
+	-moz-transform: skewY(-15.4deg);
+	-o-transform: skewY(-15.4deg);
+	-ms-transform: skewY(-15.4deg);
+	transform: skewY(-15.4deg);
+}

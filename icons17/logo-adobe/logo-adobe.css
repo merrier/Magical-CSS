@@ -1,0 +1,72 @@
+/* Radu Chelariu · https://web.archive.org/web/20100910/http://awesomebutuseless.com/designers-gone-wild/radu-chelariu-recreates-the-adobe-photoshop-logos-in-css3/
+   17CSS 图标与 Logo 合集 */
+#adobe-logo a {
+  color: #231f20;
+  display: block;
+  height: 84px;
+  padding: 213px 0 0 0;
+  position: absolute;
+  text-decoration: none;
+  width: 216px;
+  z-index: 6;
+}
+
+#left-triangle {
+  border-top: 95px solid #ee1b2e;
+  border-right: 40px solid #fff;
+  border-bottom: 95px solid #fff;
+  border-left: 40px solid #ee1b2e;
+  position: absolute;
+  z-index: 1;
+}
+
+#right-triangle {
+  border-top: 95px solid #ee1b2e;
+  border-right: 40px solid #ee1b2e;
+  border-bottom: 95px solid #fff;
+  border-left: 40px solid #fff;
+  margin: 0 0 0 136px;
+  position: absolute;
+  z-index: 2;
+}
+
+#bottom-triangle {
+  border-top: 0px solid #fff;
+  border-right: 33px solid #fff;
+  border-bottom: 85px solid #ee1b2e;
+  border-left: 34px solid #fff;
+  margin: 66px 0 0 74px;
+  position: absolute;
+  z-index: 3;
+}
+
+#bottom-left-triangle {
+  border-top: 20px solid #ee1b2e;
+  border-right: 8px solid #ee1b2e;
+  border-bottom: 20px solid #fff;
+  border-left: 8px solid #fff;
+  margin: 151px 0 0 110px;
+  position: absolute;
+  z-index: 4;
+}
+
+#bottom-filler {
+  background: #ee1b2e;
+  height: 40px;
+  margin: 151px 0 0 126px;
+  position: absolute;
+  width: 15px;
+  z-index: 5;
+}
+
+#bottom-right-triangle {
+  border-top: 20px solid #fff;
+  border-right: 8px solid #fff;
+  border-bottom: 20px solid #ee1b2e;
+  border-left: 8px solid #ee1b2e;
+  margin: 151px 0 0 141px;
+  position: absolute;
+  z-index: 4;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+#adobe-logo { margin: 0; position: relative; inset: auto; }

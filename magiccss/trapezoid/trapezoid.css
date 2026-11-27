@@ -1,0 +1,26 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L252 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.trapezoid{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  width: 160px;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+}
+.trapezoid:before{
+  content:"";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  transform:perspective(40px) scaleY(1.3) rotateX(5deg);
+  transform-origin: bottom;
+  background:deeppink;
+  z-index:-1;
+}

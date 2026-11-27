@@ -1,0 +1,95 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li a:link, li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#c55500;
+}
+
+li a:hover, li a:focus, li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before, li:after, li a:before, li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before, li a:after {
+    margin:-8px 0 0;
+    background:#c55500;
+}
+
+li a:hover:before, li a:focus:before, li a:active:before {
+    background:#730800;
+}
+
+.email:before {
+    z-index:10;
+    left:6px;
+    width:12px;
+    height:12px;
+    border-width:0 1px 1px 0;
+    border-style:solid;
+    border-color:#fff;
+    margin-top:-13px;
+    background:transparent;
+
+    -webkit-transform:rotate(39deg) skew(-12deg);
+    -moz-transform:rotate(39deg) skew(-12deg);
+    -ms-transform:rotate(39deg) skew(-12deg);
+    -o-transform:rotate(39deg) skew(-12deg);
+    transform:rotate(39deg) skew(-12deg);
+}
+
+.email a:before {
+    left:3px;
+    width:6px;
+    border-width:6px;
+    border-style:solid;
+    border-color:#c55500 #c55500 transparent;
+    margin-top:-7px;
+    background:transparent;
+}
+
+.email a:after {
+    left:4px;
+    border-width:0 8px 9px;
+    border-style:solid;
+    border-color:#c55500 transparent;
+    margin-top:-3px;
+    background:transparent;
+}
+
+.email a:hover:before, .email a:focus:before, .email a:active:before {
+    border-color:#730800 #730800 transparent;
+    background:transparent;
+}
+
+.email a:hover:after, .email a:focus:after, .email a:active:after {
+    border-bottom-color:#730800;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

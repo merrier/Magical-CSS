@@ -1,0 +1,89 @@
+/* Justin Sepulveda · https://web.archive.org/web/20100910/http://robustnessiskey.com/csslogos
+   17CSS 图标与 Logo 合集 */
+.logo {
+  background-color: #fff;
+  margin: 5em auto;
+  font-size: 100%;
+  width: 34em;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.logo li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 100;
+}
+
+#univision.logo:active {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#univision li {
+  float: left;
+  margin-bottom: 2em;
+  height: 16em;
+  width: 16em;
+}
+
+#univision li:first-child {
+  background-color: #635fac;
+  -webkit-border-radius: 0 16em 0 0;
+  -moz-border-radius: 0 16em 0 0;
+  border-radius: 0 16em 0 0;
+}
+
+#univision li:nth-child(2) {
+  background-color: #00a652;
+  float: right;
+}
+
+#univision li:nth-child(3) {
+  background-color: #ee1c25;
+  -webkit-border-radius: 0 0 0 16em;
+  -moz-border-radius: 0 0 0 16em;
+  border-radius: 0 0 0 16em;
+}
+
+#univision li:nth-child(4) {
+  background-color: #0195db;
+  float: right;
+  -webkit-border-radius: 0 0 16em 0;
+  -moz-border-radius: 0 0 16em 0;
+  border-radius: 0 0 16em 0;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.logo { margin: 0; font-size: 9px; }

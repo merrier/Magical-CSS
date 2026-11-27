@@ -1,0 +1,22 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L647 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.arrow-stripe{
+  position: absolute;
+  top:50%;left: 50%;
+  transform:translate(-50%,-50%);
+  width: 200px;line-height:200px;
+  text-align: center;
+  color: #333;
+  font-size: 200%;
+  border-radius:.5em;
+  background:
+  linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+  linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+  linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+  background-color:#e1ebbd;
+  background-size: 128px 128px;
+}

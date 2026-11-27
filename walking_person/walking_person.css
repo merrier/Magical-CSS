@@ -1,0 +1,19 @@
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: #f0e6d9 }
+.walker { position: relative; width: 126px; height: 204px; animation: bounce .48s ease-in-out infinite alternate }
+.walker div, .walker i, .walker ::after { position: absolute; box-sizing: border-box }
+.head { width: 35px; height: 41px; top: 5px; left: 54px; background: #cd8967; border-top: 11px solid #352e34; border-radius: 46% 50% 35% 45% }
+.head::after { content: ""; right: -4px; top: 6px; border: 4px solid transparent; border-bottom-color: #cd8967 }
+.jacket { top: 43px; left: 42px; width: 43px; height: 65px; background: #d06545; border-radius: 48% 48% 18% 22%; transform: rotate(7deg) }
+.arm, .leg { transform-origin: 50% 8%; animation: stride .96s ease-in-out infinite }
+.arm { left: 52px; top: 49px; width: 15px; height: 39px; color: #a54e3b; background: currentColor; border-radius: 10px; animation-delay: -.48s }
+.arm i { top: 29px; left: 1px; width: 13px; height: 34px; background: #cc8b6e; transform-origin: 50% 5px; transform: rotate(-42deg); border-radius: 7px }
+.leg { left: 52px; top: 99px; width: 21px; height: 49px; color: #334d59; background: currentColor; border-radius: 11px }
+.leg i { top: 38px; left: 2px; width: 17px; height: 48px; background: currentColor; border-radius: 9px; transform-origin: 50% 7px; animation: knee .96s ease-in-out infinite }
+.leg i::after { content: ""; left: 0; bottom: -4px; width: 31px; height: 11px; border-radius: 5px 80% 3px 4px; background: #343039 }
+.far { filter: brightness(.77) }
+.leg.far, .leg.far i { animation-delay: -.48s }
+.arm.far { animation-delay: 0s }
+@keyframes stride { 0%,100% { transform: rotate(28deg) } 50% { transform: rotate(-29deg) } 25% { transform: rotate(5deg) } }
+@keyframes knee { 0%,100% { transform: rotate(8deg) } 35% { transform: rotate(40deg) } 70% { transform: rotate(2deg) } }
+@keyframes bounce { to { transform: translateY(4px) } }
+@media (prefers-reduced-motion: reduce) { .walker, .walker * { animation-play-state: paused } }

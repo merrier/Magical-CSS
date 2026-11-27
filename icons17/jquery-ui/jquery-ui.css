@@ -1,0 +1,74 @@
+/* Doug Neiner · https://web.archive.org/web/20100910/http://me.dougneiner.com/experiments/jquery-ui.html
+   17CSS 图标与 Logo 合集 */
+#container {
+  background: #fff;
+  border: solid 1px #ccc;
+  list-style: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 2em;
+  width: 42em;
+  position: relative;
+  margin: 20px auto;
+}
+
+#jquery-ui {
+  background: #ff9700;
+  margin: 0 auto;
+  width: 23em;
+  height: 20em;
+  -webkit-border-top-left-radius: 1.5em;
+  -webkit-border-top-right-radius: 1.5em;
+  -webkit-border-bottom-left-radius: 10.5em;
+  -webkit-border-bottom-right-radius: 10.5em;
+  -moz-border-radius: 1.5em 1.5em 10.5em 10.5em;
+  -o-border-radius: 1.5em 1.5em 10.5em 10.5em;
+  border-radius: 1.5em 1.5em 10.5em 10.5em;
+  position: relative;
+}
+
+#jquery-ui:before {
+  width: 7.8em;
+  height: 8em;
+  margin: 0 auto;
+  position: relative;
+  top: 4.7em;
+  content: "";
+  display: block;
+  border: solid 4em #fff;
+  border-top: none;
+  -webkit-border-bottom-left-radius: 7.8em;
+  -webkit-border-bottom-right-radius: 7.8em;
+  border-radius: 0 0 7.8em 7.8em;
+  -moz-border-radius: 0 0 7.8em 7.8em;
+  -o-border-radius: 0 0 7.8em 7.8em;
+  z-index: 10;
+}
+
+#jquery-ui:after {
+  width: 5em;
+  height: 5em;
+  background: #ff9700;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4.2em;
+  left: 15em;
+  z-index: 20;
+}
+
+#jquery-ui .dot {
+  display: block;
+  height: 4em;
+  width: 4em;
+  background: #fff;
+  position: absolute;
+  z-index: 30;
+  top: 3.5em;
+  left: 15.9em;
+  -webkit-transform: rotate(14deg);
+  -moz-transform: rotate(14deg);
+  -o-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

@@ -1,0 +1,11 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L1252
+   https://blog.csdn.net/liu_jiachen/article/details/78634457 */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.icon-article{
+    width: 30px;
+    height: 15px;
+    background: linear-gradient(to bottom,black 0%,black 0%,transparent 20%,transparent 40%, black 40%,black 40%,transparent 60%,transparent 80%,black 100%);
+    outline: 1px solid black;
+    outline-offset: 4px;
+}

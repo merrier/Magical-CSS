@@ -1,0 +1,180 @@
+/* Justin Sepulveda · https://web.archive.org/web/20100910/http://robustnessiskey.com/csslogos
+   17CSS 图标与 Logo 合集 */
+.logo {
+  background-color: #fff;
+  margin: 5em auto;
+  font-size: 100%;
+  width: 34em;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.logo li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 100;
+}
+
+#nbc.logo:active {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#nbc {
+  height: 28em;
+  width: 46.5em;
+}
+
+#nbc li:first-child {
+  background-color: #f5c400;
+  bottom: 3.3em;
+  left: -2.8em;
+  -webkit-transform: rotate(-73.6deg);
+  -moz-transform: rotate(-73.6deg);
+}
+
+#nbc li:first-child:after {
+  border-color: #f5c400 transparent transparent transparent;
+}
+
+#nbc li:nth-child(2) {
+  background-color: #ec731a;
+  bottom: 15.4em;
+  left: 2em;
+  -webkit-transform: rotate(-38deg);
+  -moz-transform: rotate(-38deg);
+}
+
+#nbc li:nth-child(2):after {
+  border-color: #ec731a transparent transparent transparent;
+}
+
+#nbc li:nth-child(3) {
+  background-color: #be0040;
+  top: 0;
+  left: 12.6em;
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+}
+
+#nbc li:nth-child(3):after {
+  border-color: #be0040 transparent transparent transparent;
+  border-width: 18em 5em;
+}
+
+#nbc li:nth-child(4) {
+  background-color: #6d559f;
+  top: 0;
+  right: 12.6em;
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+}
+
+#nbc li:nth-child(4):after {
+  border-color: #6d559f transparent transparent transparent;
+  border-width: 18em 5em;
+}
+
+#nbc li:nth-child(5) {
+  background-color: #018ccd;
+  bottom: 15.4em;
+  right: 2em;
+  -webkit-transform: rotate(38deg);
+  -moz-transform: rotate(38deg);
+}
+
+#nbc li:nth-child(5):after {
+  border-color: #018ccd transparent transparent transparent;
+}
+
+#nbc li:nth-child(6) {
+  background-color: #00aa4a;
+  bottom: 3.3em;
+  right: -2.8em;
+  -webkit-transform: rotate(73.6deg);
+  -moz-transform: rotate(73.6deg);
+}
+
+#nbc li:nth-child(6):after {
+  border-color: #00aa4a transparent transparent transparent;
+}
+
+#nbc li {
+  height: 5em;
+  width: 10em;
+  position: absolute;
+  -webkit-border-radius: 10em 10em 0 0;
+  -moz-border-radius: 10em 10em 0 0;
+}
+
+#nbc li:after {
+  content: " ";
+  position: absolute;
+  top: 4.94em;
+  width: 0;
+  height: 0;
+  border-width: 17em 5em;
+  border-style: solid;
+}
+
+#nbc li:last-child {
+  background-color: #fff;
+  width: 2.5em;
+  height: 3em;
+  position: absolute;
+  right: 20.2em;
+  top: 6em;
+  -webkit-border-radius: 0 1em 0 0;
+  -moz-border-radius: 0 1em 0 0;
+}
+
+#nbc li:last-child:after {
+  content: " ";
+  background-color: #6d559f;
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: .6em;
+  left: .8em;
+  border-width: 0;
+  -webkit-border-radius: 8em;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-transform: rotate(-10deg);
+  -moz-border-radius: 8em;
+  -moz-border-radius-bottomleft: 0;
+  -moz-transform: rotate(-10deg);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.logo { margin: 0; font-size: 9px; }

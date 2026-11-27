@@ -1,0 +1,119 @@
+/* Doug Neiner · https://web.archive.org/web/20100910/http://me.dougneiner.com/experiments/jquery.html
+   17CSS 图标与 Logo 合集 */
+#container {
+  background: #fff;
+  border: solid 1px #ccc;
+  list-style: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 2em;
+  width: 42em;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+#jquery {
+  position: relative;
+  width: 20em;
+  height: 20em;
+  margin: 0 auto;
+  -webkit-transform: rotate(-54deg) scale(1,0.92);
+  -moz-transform: rotate(-54deg) scale(1,0.92);
+  -o-transform: rotate(-54deg) scale(1,0.92);
+  transform: rotate(-54deg) scale(1,0.92);
+}
+
+#large, #med, #small {
+  -webkit-transform: scale(0.77, 1);
+  -moz-transform: scale(0.77, 1);
+  -o-transform: scale(0.77, 1);
+  transform: scale(0.77, 1);
+}
+
+#large {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 13em;
+  height: 20em;
+  background: #1EA2C9;
+}
+
+#large, #large:before {
+  border-radius: 10em 0 0 10em;
+  -moz-border-radius: 10em 0 0 10em;
+  -o-border-radius: 10em 0 0 10em;
+  -webkit-border-top-left-radius: 10em;
+  -webkit-border-bottom-left-radius: 10em;
+}
+
+#large:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  left: 4em;
+}
+
+#med {
+  position: absolute;
+  top: 3.2em;
+  left: 7em;
+  display: block;
+  width: 9.5em;
+  height: 14em;
+  border-radius: 7em 0 0 7em;
+  background: #1EA2C9;
+}
+
+#med, #med:before {
+  border-radius: 7em 0 0 7em;
+  -moz-border-radius: 7em 0 0 7em;
+  -o-border-radius: 7em 0 0 7em;
+  -webkit-border-top-left-radius: 7em;
+  -webkit-border-bottom-left-radius: 7em;
+}
+
+#med:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  left: 3.2em;
+}
+
+#small {
+  position: absolute;
+  top: 6em;
+  left: 13em;
+  display: block;
+  width: 6em;
+  height: 9em;
+  border-radius: 4.5em 0 0 4.5em;
+  background: #1EA2C9;
+}
+
+#small, #small:before {
+  border-radius: 4.5em 0 0 4.5em;
+  -moz-border-radius: 4.5em 0 0 4.5em;
+  -o-border-radius: 4.5em 0 0 4.5em;
+  -webkit-border-top-left-radius: 4.5em;
+  -webkit-border-bottom-left-radius: 4.5em;
+}
+
+#small:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  left: 2.15em;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

@@ -1,0 +1,69 @@
+/* insicdesigns · https://web.archive.org/web/20100910/http://blog.insicdesigns.com/2010/03/create-social-media-icons-in-pure-css/
+   17CSS 图标与 Logo 合集 */
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #262626;
+  margin: 20px;
+  padding: 0;
+  background: #efefef;
+}
+
+.fl {
+  float: left;
+  margin-right: 20px;
+}
+
+#delicious {
+  background: rgba(255,255,255,1);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(209,209,209,1)));
+  background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(209,209,209,1));
+  color: #fff;
+  text-align: center;
+  border: 0px solid rgba(0,0,0,1);
+  font-weight: bold;
+  font-size: 108px;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+#delicious .blue {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #085ec5;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,96,206,1)), to(rgba(0,59,127,1)));
+  background: -moz-linear-gradient(top, rgba(0,96,206,1), rgba(0,59,127,1));
+  border: 1px solid rgba(0,96,206,1);
+  border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+#delicious .black {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(33,33,33,1)), to(rgba(0,0,0,1)));
+  background: -moz-linear-gradient(top, rgba(33,33,33,1), rgba(0,0,0,1));
+  border: 1px solid rgba(0,0,0,1);
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+.s64 {
+  width: 64px;
+  height: 64px;
+  border-width: 1px;
+  line-height: 64px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

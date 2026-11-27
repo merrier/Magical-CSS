@@ -1,0 +1,24 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L561 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.spectiveBlur{
+  position: absolute;
+  top: 50%;left: 50%;
+  width: 220px;line-height:160px;
+  transform: translate(-50%, -50%);
+  border-radius:10px;
+  overflow:hidden;
+  background:#E91E63;
+  color:#fff;
+  font-size:200%;
+  text-align:center;
+  cursor:pointer;
+  transition: transform .2s;
+}
+.spectiveBlur:hover{
+  box-shadow:0 0 0 1920px rgba(0,0,0,.7);
+  transform: translate(-50%, -50%) scale(1.2);
+}

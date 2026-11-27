@@ -1,0 +1,292 @@
+/* Andreas Jacob · https://web.archive.org/web/20100910/http://cordobo.com/1662-pure-css-animated-3d-super-mario-icon/
+   17CSS 图标与 Logo 合集 */
+body {
+  background-color: #8b8078;
+  color: #000;
+  font: 100.1%/1.5 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#parent {
+  height: 224px;
+  margin: 0;
+  width: 224px;
+}
+
+#mario-retro-icon, #mario-retro-icon div {
+  position: absolute;
+}
+
+#mario-retro-icon {
+  height: 224px;
+  width: 224px;
+  -webkit-animation: spin 6s infinite linear;
+  -webkit-transform-origin: (50% 50% 0);
+  -webkit-backface-visibility: visible;
+  -webkit-transform-style: preserve-3d;
+}
+
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotateY(0); }
+  to   { -webkit-transform: rotateY(360deg); }
+}
+
+.h1 {
+  height: 14px;
+}
+
+.h2 {
+  height: 28px;
+}
+
+.h3 {
+  height: 42px;
+}
+
+.h4 {
+  height: 56px;
+}
+
+.h5 {
+  height: 70px;
+}
+
+.h6 {
+  height: 84px;
+}
+
+.h7 {
+  height: 98px;
+}
+
+.h8 {
+  height: 112px;
+}
+
+.h9 {
+  height: 126px;
+}
+
+.w1 {
+  width: 14px;
+}
+
+.w2 {
+  width: 28px;
+}
+
+.w3 {
+  width: 42px;
+}
+
+.w4 {
+  width: 56px;
+}
+
+.w5 {
+  width: 70px;
+}
+
+.w6 {
+  width: 84px;
+}
+
+.w7 {
+  width: 98px;
+}
+
+.w8 {
+  width: 112px;
+}
+
+.w9 {
+  width: 126px;
+}
+
+.w10 {
+  width: 140px;
+}
+
+.w11 {
+  width: 154px;
+}
+
+.l-2 {
+  left: -28px;
+}
+
+.l-1 {
+  left: -14px;
+}
+
+.l0 {
+  left: 0;
+}
+
+.l1 {
+  left: 14px;
+}
+
+.l2 {
+  left: 28px;
+}
+
+.l3 {
+  left: 42px;
+}
+
+.l4 {
+  left: 56px;
+}
+
+.l5 {
+  left: 70px;
+}
+
+.l6 {
+  left: 84px;
+}
+
+.l7 {
+  left: 98px;
+}
+
+.l8 {
+  left: 112px;
+}
+
+.l9 {
+  left: 126px;
+}
+
+.l10 {
+  left: 140px;
+}
+
+.l11 {
+  left: 154px;
+}
+
+.l12 {
+  left: 168px;
+}
+
+.l13 {
+  left: 182px;
+}
+
+.t0 {
+  top: 0;
+}
+
+.t1 {
+  top: 14px;
+}
+
+.t2 {
+  top: 28px;
+}
+
+.t3 {
+  top: 42px;
+}
+
+.t4 {
+  top: 56px;
+}
+
+.t5 {
+  top: 70px;
+}
+
+.t6 {
+  top: 84px;
+}
+
+.t7 {
+  top: 98px;
+}
+
+.t8 {
+  top: 112px;
+}
+
+.t9 {
+  top: 126px;
+}
+
+.t10 {
+  top: 140px;
+}
+
+.t11 {
+  top: 154px;
+}
+
+.t12 {
+  top: 168px;
+}
+
+.t13 {
+  top: 182px;
+}
+
+.t14 {
+  top: 196px;
+}
+
+.t15 {
+  top: 210px;
+}
+
+.tz-4 {
+  -webkit-transform: translateZ(-56px);
+}
+
+.tz-3 {
+  -webkit-transform: translateZ(-42px);
+}
+
+.tz-2 {
+  -webkit-transform: translateZ(-28px);
+}
+
+.tz-1 {
+  -webkit-transform: translateZ(-14px);
+}
+
+.tz1 {
+  -webkit-transform: translateZ(14px);
+}
+
+.tz2 {
+  -webkit-transform: translateZ(28px);
+}
+
+.tz3 {
+  -webkit-transform: translateZ(42px);
+}
+
+.tz4 {
+  -webkit-transform: translateZ(56px);
+}
+
+.rot90 {
+  -webkit-transform: rotateY(90deg);
+}
+
+.rot-90 {
+  -webkit-transform: rotateY(-90deg);
+}
+
+.o {
+  background-color: #fe3000;
+}
+
+.s {
+  background-color: #feb644;
+}
+
+.g {
+  background-color: #a48b00;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

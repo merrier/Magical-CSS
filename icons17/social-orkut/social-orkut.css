@@ -1,0 +1,96 @@
+/* Nicolas Gallagher · https://web.archive.org/web/20100910/http://nicolasgallagher.com/demo/pure-css-social-media-icons/
+   Dual licensed under MIT and GNU GPLv2 © Nicolas Gallagher */
+body {
+  padding: 0;
+  margin: 0;
+  font: 1em/1.4 Cambria, Georgia, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font: 0.875em/1 Arial, sans-serif;
+}
+
+ul li {
+  float: left;
+  width: 66px;
+  height: 66px;
+  margin: 20px 20px 0 0;
+}
+
+ul li a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  line-height: 64px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul li a:hover, ul li a:focus, ul li a:active {
+  opacity: 0.8;
+  border-color: #000;
+}
+
+.orkut a {
+  position: relative;
+  border-color: #b4c4dd;
+  text-indent: -9000px;
+  font-size: 108px;
+  color: #b62b91;
+  background: #fff;
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ceddf6));
+  background: -moz-linear-gradient(top, #fff, #ceddf6);
+}
+
+.orkut a:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #b0699e;
+  margin: -21px 0 0 -21px;
+  background: #d779c0;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+}
+
+.orkut a:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 26px;
+  margin: -13px 0 0 -13px;
+  background: #fff;
+  -moz-border-radius: 26px;
+  -webkit-border-radius: 26px;
+  border-radius: 26px;
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#eff4fc), to(#dce6f8));
+  background: -moz-linear-gradient(top, #eff4fc, #dce6f8);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.content ul { width: auto; padding: 0; margin: 0; }

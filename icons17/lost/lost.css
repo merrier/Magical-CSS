@@ -1,0 +1,40 @@
+/* Marcos Esperón · https://web.archive.org/web/20100910/http://www.dolcebita.com/2010/05/tutorial-intro-de-lost-usando-css3/
+   17CSS 图标与 Logo 合集 */
+body {
+  background-color: #000;
+  font-family: arial;
+  font-size: 5em;
+  color: #FFF;
+}
+
+div {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  cursor: pointer;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  -webkit-transform: rotate(-15deg) scale(1) skew(0deg);
+  -webkit-transition: all 3s ease-in;
+  opacity: 0.4;
+  -moz-transform: rotate(-15deg) scale(1) skew(0deg);
+  -moz-transition: all 3s ease-in;
+  opacity: 0.4;
+  -o-transform: rotate(-15deg) scale(1) skew(0deg);
+  -o-transition: all 3s ease-in;
+  opacity: 0.4;
+}
+
+div:hover {
+  top: 130px;
+  left: 0;
+  opacity: 1;
+  letter-spacing: 0.6em;
+  font-size: 2em;
+  text-shadow: 3px 3px 5px #CCC;
+  -webkit-transform: rotate(20deg) scale(1) skew(-30deg);
+  -moz-transform: rotate(20deg) scale(1) skew(-30deg);
+  -o-transform: rotate(20deg) scale(1) skew(-30deg);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+body > div { position: relative; inset: auto; }

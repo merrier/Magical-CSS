@@ -1,0 +1,82 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L2499 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+body { background: black; filter: blur(4px) contrast(10) }
+
+.drop-water {
+  position: relative;
+  width: 640px;
+  height: 126px;
+  color: #fff;
+  font-size: 124px;
+  text-align: center;
+  margin: 100px auto;
+  border-bottom: 10px solid #fff;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
+}
+.drop-water::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -20px;
+  width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-animation: move 7.5s ease-in-out infinite;
+          animation: move 7.5s ease-in-out infinite;
+}
+.drop-water::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -20px;
+  width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-animation: move 7.5s ease-in-out 1s infinite;
+          animation: move 7.5s ease-in-out 1s infinite;
+}
+
+@-webkit-keyframes move {
+  80% {
+    bottom: -30px;
+    -webkit-transform: translate(620px, 0);
+            transform: translate(620px, 0);
+  }
+  93% {
+    -webkit-transform: translate(620px, 3px);
+            transform: translate(620px, 3px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(620px, 150px);
+            transform: translate(620px, 150px);
+    opacity: 0;
+  }
+}
+
+@keyframes move {
+  80% {
+    bottom: -30px;
+    -webkit-transform: translate(620px, 0);
+            transform: translate(620px, 0);
+  }
+  93% {
+    -webkit-transform: translate(620px, 3px);
+            transform: translate(620px, 3px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(620px, 150px);
+            transform: translate(620px, 150px);
+    opacity: 0;
+  }
+}

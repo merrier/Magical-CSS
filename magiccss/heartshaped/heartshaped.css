@@ -1,0 +1,35 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L49 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.heartShaped {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%) rotate(45deg);
+  background: rgba(255, 20, 147, .85);
+  width: 140px;
+  line-height: 140px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+.heartShaped:before,
+.heartShaped:after
+ {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -70px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: rgb(255, 20, 147);
+  z-index: -1;
+}
+.heartShaped:after{
+  top: -70px;
+  left: 0;
+}

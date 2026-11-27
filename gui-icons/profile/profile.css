@@ -1,0 +1,79 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li a:link, li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#c55500;
+}
+
+li a:hover, li a:focus, li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before, li:after, li a:before, li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before, li a:after {
+    margin:-8px 0 0;
+    background:#c55500;
+}
+
+li a:hover:before, li a:focus:before, li a:active:before {
+    background:#730800;
+}
+
+.profile a:before {
+    left:4px;
+    width:16px;
+    height:5px;
+    margin-top:1px;
+
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+}
+
+.profile a:after {
+    left:9px;
+    width:6px;
+    height:10px;
+    margin-top:-7px;
+
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px 10px;
+    -webkit-border-bottom-left-radius:5px 10px;
+    -moz-border-radius:5px 5px 5px 5px / 5px 5px 10px 10px;
+    border-radius:5px 5px 5px 5px / 5px 5px 10px 10px;
+}
+
+.profile a:hover:after, .profile a:focus:after, .profile a:active:after {
+    background:#730800;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

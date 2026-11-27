@@ -1,0 +1,12 @@
+/* Andrew Kelly 原作；本地据 17CSS 存档图例重绘 · https://web.archive.org/web/20100910/http://brewowski.co.uk/icon.html
+   17CSS 图标与 Logo 合集 */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; }
+
+body { background: #424242; }
+main { width: 132px; border: 3px solid #202020; border-radius: 6px; background: linear-gradient(#777,#363636); box-shadow: 0 3px 5px #222; }
+header { height: 16px; background: linear-gradient(#eee,#bbb); padding: 4px; box-sizing: border-box; }
+b { display: block; width: 7px; height: 7px; border-radius: 50%; background: #e4685d; box-shadow: 10px 0 #e9ba51,20px 0 #7eaf60; }
+i { display: block; position: relative; margin: 12px; height: 5px; background: linear-gradient(to right,#5295db 45%,#ddd 45%); border: 1px solid #232323; border-radius: 5px; }
+i::after { content: ""; position: absolute; left: 42%; top: -3px; width: 7px; height: 10px; background: #eee; border: 1px solid #333; border-radius: 2px; }
+i:nth-of-type(2) { transform: scaleX(-1); }
+

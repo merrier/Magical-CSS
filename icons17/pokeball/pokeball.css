@@ -1,0 +1,49 @@
+/* Drew · https://web.archive.org/web/20100910/http://www.legendofdrew.com/css-shape-creations/
+   17CSS 图标与 Logo 合集 */
+#pokeball {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: 5px;
+}
+
+#pokeball .topball {
+  width: 98px;
+  height: 48px;
+  -moz-border-radius: 100px 100px 0 0;
+  border: 1px solid #000;
+  border-bottom: 3px solid #000;
+  background: #F77;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F77), to(#C43));
+  background: -moz-linear-gradient(top,  #F77,  #C43);
+  -webkit-border-top-left-radius: 100px;
+  -webkit-border-top-right-radius: 100px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+}
+
+#pokeball .bottomball {
+  width: 98px;
+  height: 46px;
+  background: #FFF;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 100px;
+  -webkit-border-bottom-left-radius: 100px;
+  -moz-border-radius: 0 0 100px 100px;
+  border: 1px solid #000;
+}
+
+#pokeball .innerball {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  background: #FFF;
+  border: 1px solid #000;
+  z-index: 1;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

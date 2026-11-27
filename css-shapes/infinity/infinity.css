@@ -1,0 +1,29 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L507
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.infinity {
+    position: relative;
+    width: 106px;
+    height: 50px;
+    box-sizing: content-box;
+}
+.infinity:before,
+.infinity:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 10px solid red;
+    border-radius: 25px 25px 0 25px;
+    transform: rotate(-45deg);
+}
+.infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 25px 25px 25px 0;
+    transform: rotate(45deg);
+}

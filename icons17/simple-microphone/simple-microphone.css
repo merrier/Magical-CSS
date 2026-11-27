@@ -1,0 +1,89 @@
+/* Zander Martineau · https://web.archive.org/web/20100910/http://rathersplendid.net/cssicons/
+   17CSS 图标与 Logo 合集 */
+body {
+  color: #000;
+  background-color: #fff;
+  font: 11px/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 22em;
+  background-color: #f1f1f1;
+  margin-right: 50px;
+  float: left;
+}
+
+.gap {
+  margin: 20px auto 60px;
+}
+
+.wrapper > * {
+  -webkit-transition: all 0.12s ease-out;
+  -moz-transition: all 0.12s ease-out;
+  -o-transition: all 0.12s ease-out;
+}
+
+.wrapper > *:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#voice {
+  position: relative;
+  width: 13em;
+  height: 15em;
+}
+
+.mic {
+  width: 5em;
+  height: 10.5em;
+  position: absolute;
+  background-color: #000;
+  left: 4em;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  border-radius: 3em;
+}
+
+#voice div.wrap {
+  overflow: hidden;
+  width: 9em;
+  height: 9em;
+  position: absolute;
+  bottom: 0;
+  left: 2em;
+}
+
+.shell {
+  width: 7em;
+  height: 12em;
+  position: absolute;
+  border: 1em solid #000;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  border-radius: 5em;
+  bottom: 2.5em;
+}
+
+.stem {
+  width: 1em;
+  height: 3em;
+  position: absolute;
+  background-color: #000;
+  left: 4em;
+  bottom: 0;
+}
+
+.base {
+  width: 5em;
+  height: 1em;
+  position: absolute;
+  background-color: #000;
+  left: 2em;
+  bottom: 0;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.wrapper { display: grid; place-items: center; width: 260px; height: 220px; background: transparent; }
+.gap { margin: 0 auto; }

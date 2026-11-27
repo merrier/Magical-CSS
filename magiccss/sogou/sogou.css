@@ -1,0 +1,34 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L1945 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.sogou{
+  position: absolute;
+  top: 50%;left: 50%;
+  width: 200px;height:200px;
+  transform: translate(-50%, -50%);
+  border:8px solid #fff;
+  box-shadow: 2px 1px 2px 2px #ccc;
+  border-radius:50%;
+  overflow:hidden;
+  background:#4DA0ED;
+}
+.sogou::before{
+  content:"S";
+  position: absolute;
+  line-height: 185px;
+  top:0;left:0;right:0;bottom:0;
+  color:#fff;
+  font-weight:600;
+  font-size:320px;
+  text-align:center;
+  text-shadow:
+    3px 0 0px #337FC4,
+    -5px 0px 0px #CDE4F0,
+    0px 8px 0px #387FBF;
+  transform:rotate(2deg);
+  z-index:-10;
+  overflow:hidden;
+}

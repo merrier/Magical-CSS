@@ -1,0 +1,250 @@
+/* Andreas Jacob · https://web.archive.org/web/20100910/http://cordobo.com/1630-internet-explorer-pure-css-logo/
+   17CSS 图标与 Logo 合集 */
+body {
+  background-color: #fff;
+  color: #000;
+  font: 13px/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  height: 600px;
+  width: 700px;
+}
+
+#ie-icon, #ie-icon div {
+  position: absolute;
+}
+
+#ie-icon {
+  background: -moz-radial-gradient( center 0deg, circle closest-corner, #098dda 35%, #00163a 65%, rgba(0, 58, 104, 1) 100% );
+  background: -webkit-gradient( radial, center center, 65, center center, 200, from(#098dda), color-stop(.95, #00163a), to(rgba(0, 58, 104, 1)) );
+  height: 376px;
+  left: 79px;
+  top: 87px;
+  width: 404px;
+  -moz-border-radius: 202px / 188px;
+  -webkit-border-radius: 202px 188px;
+  -moz-box-shadow: 12px 5px 0px rgba(0, 13, 22, 1) inset, 
+    -12px 5px 0px rgba(0, 13, 22, 1) inset, 
+    12px 0px 0px rgba(0, 18, 49, 1) inset, 
+    -12px 0px 5px rgba(0, 13, 49, 1) inset;
+  -webkit-box-shadow: 12px 5px 0px rgba(0, 13, 22, 1) inset,
+    -12px 5px 0px rgba(0, 13, 22, 1) inset,
+    12px 0px 0px rgba(0, 18, 49, 1) inset,
+    -12px 0px 5px rgba(0, 13, 49, 1) inset;
+}
+
+.icon-bg {
+  background: -moz-linear-gradient( rgba(219, 227, 230, 1) 0%, rgba(4, 121, 176, 1) 25%, rgba(255, 255, 255, 0) 45%);
+  background: -webkit-gradient( linear, center center, center center, color-stop(0, (219, 227, 230, 1)), color-stop(0.45, rgba(4, 121, 176, 1)), color-stop(1, rgba(255, 255, 255, 0)) );
+  height: 368px;
+  left: 12px;
+  top: 6px;
+  width: 380px;
+  -moz-border-radius: 190px / 184px;
+  -webkit-border-radius: 190px 184px;
+  -moz-box-shadow: 3px -15px 17px rgba(0, 0, 40, 1) inset, -3px -15px 17px rgba(0, 0, 40, 1) inset;
+  -webkit-box-shadow: 3px -15px 17px rgba(0, 0, 40, 1) inset, -3px -15px 17px rgba(0, 0, 40, 1) inset;
+}
+
+.spot {
+  height: 50px;
+  left: 120px;
+  top: -60px;
+  width: 140px;
+  -moz-border-radius: 70px / 25px;
+  -webkit-border-radius: 70px 25px;
+  -moz-box-shadow: 0 355px 40px rgba(180, 242, 255, 1), 
+    0 350px 50px rgba(135, 234, 252, 1),
+    40px 345px 50px rgba(138, 235, 252, .5),
+    -40px 345px 50px rgba(138, 235, 252, .5),
+    55px 340px 50px rgba(138, 235, 252, .5),
+    -55px 340px 50px rgba(138, 235, 252, .5),
+    65px 330px 50px rgba(41, 169, 234, .5),
+    -65px 330px 50px rgba(41, 169, 234, .5),
+    0 65px 15px rgba(255, 255, 255, .5), 
+    25px 75px 20px rgba(255, 255, 255, .3),
+    -25px 75px 20px rgba(255, 255, 255, .3),
+    45px 85px 20px rgba(255, 255, 255, .2),
+    -45px 85px 20px rgba(255, 255, 255, .2),
+    65px 95px 10px rgba(255, 255, 255, .1),
+    -65px 95px 10px rgba(255, 255, 255, .1);
+  -webkit-box-shadow: 0 360px 40px rgba(180, 242, 255, 1), 
+    0 355px 50px rgba(135, 234, 252, 1),
+    40px 350px 50px rgba(138, 235, 252, .5),
+    -40px 350px 50px rgba(138, 235, 252, .5),
+    55px 340px 50px rgba(138, 235, 252, .5),
+    -55px 340px 50px rgba(138, 235, 252, .5),
+    65px 330px 50px rgba(41, 169, 234, .5),
+    -65px 330px 50px rgba(41, 169, 234, .5),
+    0 65px 15px rgba(255, 255, 255, .5), 
+    25px 75px 20px rgba(255, 255, 255, .3),
+    -25px 75px 20px rgba(255, 255, 255, .3),
+    45px 85px 20px rgba(255, 255, 255, .2),
+    -45px 85px 20px rgba(255, 255, 255, .2),
+    65px 95px 10px rgba(255, 255, 255, .1),
+    -65px 95px 10px rgba(255, 255, 255, .1);
+}
+
+.spot div:nth-of-type(7n/**/+1), .spot div:nth-of-type(8n/**/+2) {
+  background: -moz-linear-gradient( rgba(90, 136, 162, 0) 30%, rgba(18, 141, 188, 1) 100% );
+  background: -webkit-gradient( linear, 0 50%, 30%, 0 50%, 100%, from(rgba(90, 136, 162, 0)), to(rgba(18, 141, 188, 1)) );
+  height: 136px;
+  top: 75px;
+  width: 80px;
+  -moz-border-radius: 40px / 68px;
+  -webkit-border-radius: 40px 68px;
+}
+
+.spot div:nth-of-type(7n/**/+1) {
+  left: -76px;
+  -moz-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+}
+
+.spot div:nth-of-type(8n/**/+2) {
+  left: 137px;
+  -moz-transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+}
+
+.inside-edge-top, .inside-edge-bottom, .inside-edge-2-bottom {
+  border-width: 3px;
+  border-style: solid;
+  -moz-border-top-colors: #2c81a8 #198dc5 #0b5476;
+  -moz-border-left-colors: #2c81a8 #198dc5 #0b5476;
+  -moz-border-bottom-colors: #289ad2 #97edff #55c1ed;
+  -moz-border-right-colors: #2c81a8 #198dc5 #0b5476;
+}
+
+.inside-edge-top {
+  background: -moz-linear-gradient(-90deg, #001c40, #00203f);
+  height: 74px;
+  left: 130px;
+  top: 86px;
+  width: 140px;
+  -moz-border-radius: 80px 80px 0 0 / 73px 73px 0 0;
+  -moz-box-shadow: 0 0 20px #032537;
+  -webkit-box-shadow: 0 0 20px #032537;
+}
+
+.inside-edge-bottom {
+  background: -moz-linear-gradient(-90deg, #00203f, #001c40);
+  height: 82px;
+  left: 130px;
+  top: 207px;
+  width: 136px;
+  -moz-border-radius: 0 0 82px 82px / 0 0 73px 73px;
+  -moz-border-bottom-colors: #2c81a8 #198dc5 #0b5476;
+  -moz-border-top-colors: #289ad2 #69d8fb #0b5476;
+  -moz-box-shadow: 0 0 20px #032537;
+  -webkit-box-shadow: 0 0 20px #032537;
+}
+
+.inside-edge-2-bottom {
+  background: -moz-linear-gradient(-90deg, #00203f, #001c40);
+  border-left: 0;
+  border-right: 0;
+  -moz-border-bottom-colors: #2c81a8 #62cdf3 #0b5476;
+  -moz-border-top-colors: #289ad2 #97edff #0b5476;
+  -moz-border-radius: 0 10px 30px 0 / 0 10px 25px 0;
+  height: 36px;
+  left: 267px;
+  top: 207px;
+  width: 134px;
+}
+
+.inside-top, .inside-bottom, .inside-2-bottom {
+  background: #fff;
+  z-index: 12;
+}
+
+.inside-top {
+  height: 60px;
+  left: 141px;
+  top: 96px;
+  width: 124px;
+  -moz-border-radius: 60px 62px 0 0 / 60px 62px 0 0;
+  -webkit-border-radius: 60px 62px 0 0;
+}
+
+.inside-bottom {
+  height: 69px;
+  left: 140px;
+  top: 217px;
+  width: 122px;
+  -moz-border-radius: 0 0 69px 69px / 0 0 61px 61px;
+  -webkit-border-bottom-right-radius: 69px 61px;
+  -webkit-border-bottom-left-radius: 69px 61px;
+}
+
+.inside-2-bottom {
+  height: 23px;
+  left: 250px;
+  top: 217px;
+  width: 160px;
+}
+
+#planetary-ring {
+  background: transparent;
+  border: 4px solid #da8904;
+  border-left-width: 1px;
+  border-right: 0px none;
+  clip: rect(0px,200px,670px,-100px);
+  height: 580px;
+  left: 154px;
+  position: absolute;
+  top: -25px;
+  width: 230px;
+  z-index: 15;
+  -moz-transform: rotate(43deg);
+  -webkit-transform: rotate(43deg);
+  -moz-border-radius: 115px / 295px;
+  -webkit-border-radius: 115px 295px;
+  -moz-box-shadow: 15px -20px 20px rgba(238, 167, 23, 1) inset,
+    25px -20px 10px rgba(246, 191, 36, 1) inset,
+    40px -20px 0px rgba(238, 165, 18, 0) inset,
+    30px -20px 0px rgba(251, 208, 42, 1) inset,
+    32px -22px 0px rgba(229, 181, 29, 0.5) inset,
+    35px -17px 0px rgba(243, 190, 24, 0.9) inset,
+    15px 10px 0px rgba(243, 190, 24, 0.9) inset, 
+    -3px 0px 2px rgba(255, 255, 255, 1),
+    -7px 0px 0px rgba(252, 220, 65, 1),
+    -30px 20px 3px rgba(255, 255, 0, .1),
+    -30px 30px 3px rgba(255, 255, 0, .1),
+    -30px 40px 3px rgba(255, 255, 0, .1),
+    -30px 50px 3px rgba(255, 255, 0, .1);
+  -webkit-box-shadow: 15px -20px 20px rgba(238, 167, 23, 1) inset,
+    25px -20px 10px rgba(246, 191, 36, 1) inset,
+    40px -20px 0px rgba(238, 165, 18, 0) inset,
+    30px -20px 0px rgba(251, 208, 42, 1) inset,
+    32px -22px 0px rgba(229, 181, 29, 0.5) inset,
+    35px -17px 0px rgba(243, 190, 24, 0.9) inset,
+    15px 10px 0px rgba(243, 190, 24, 0.9) inset,
+    -3px 0px 2px rgba(255, 255, 255, 1),
+    -7px 0px 0px rgba(252, 220, 65, 1),
+    -30px 20px 3px rgba(255, 255, 0, .1),
+    -30px 30px 3px rgba(255, 255, 0, .1),
+    -30px 40px 3px rgba(255, 255, 0, .1),
+    -30px 50px 3px rgba(255, 255, 0, .1);
+}
+
+#planetary-ring div {
+  height: 580px;
+  position: absolute;
+  width: 230px;
+  -moz-border-radius: 115px / 295px;
+  -webkit-border-radius: 115px 295px;
+}
+
+#planetary-ring div:nth-of-type(n/**/+1) {
+  -moz-box-shadow: 7px 7px 7px rgba(218, 137, 4, 1) inset,
+    10px 10px 5px rgba(218, 137, 4, 0.3) inset,
+    12px 12px 5px rgba(218, 137, 4, 0.3) inset;
+  -webkit-box-shadow: 7px 7px 7px rgba(218, 137, 4, 1) inset,
+    10px 10px 5px rgba(218, 137, 4, 0.3) inset,
+    12px 12px 5px rgba(218, 137, 4, 0.3) inset;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

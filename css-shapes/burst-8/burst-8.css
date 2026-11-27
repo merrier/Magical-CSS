@@ -1,0 +1,22 @@
+/* Merrier · https://github.com/merrier/css-shapes/blob/0e0588e041a1a248ee6215389567f6aeb7a9c663/index.html#L413
+   https://css-tricks.com/the-shapes-of-css/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+.burst-8 {
+    background: red;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    transform: rotate(20deg);
+}
+.burst-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    background: red;
+    transform: rotate(135deg);
+}

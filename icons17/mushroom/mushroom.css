@@ -1,0 +1,77 @@
+/* Drew · https://web.archive.org/web/20100910/http://www.legendofdrew.com/css-shape-creations/
+   17CSS 图标与 Logo 合集 */
+#mushroom {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: 5px;
+}
+
+#mushroom .mushroomredpart {
+  background: #B20002;
+  width: 100px;
+  height: 90px;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E40204), to(#960100));
+  background: -moz-linear-gradient(top,  #E40204,  #960100);
+}
+
+#mushroom .spot1, #mushroom .spot2, #mushroom .spot3 {
+  height: 40px;
+  width: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  background: #FFF;
+  position: absolute;
+}
+
+#mushroom .spot1 {
+  left: -20px;
+  top: 15px;
+}
+
+#mushroom .spot2 {
+  left: 30px;
+  top: 10px;
+}
+
+#mushroom .spot3 {
+  right: -20px;
+  top: 15px;
+}
+
+#mushroom .head {
+  width: 70px;
+  height: 30px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+  -moz-border-radius: 10px 10px 30px 30px;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  background: #E7C77A;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFE086), to(#BFA364));
+  background: -moz-linear-gradient(top,  #FFE086,  #BFA364);
+}
+
+#mushroom .lefteye, #mushroom .righteye {
+  height: 13px;
+  width: 5px;
+  background: #000;
+  position: absolute;
+  bottom: 11px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#mushroom .lefteye {
+  left: 40px;
+}
+
+#mushroom .righteye {
+  right: 40px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

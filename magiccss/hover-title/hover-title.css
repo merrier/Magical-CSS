@@ -1,0 +1,39 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L2214 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.hover-title{
+  position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%, -50%);
+  width:120px;
+  line-height:38px;
+  color:#333;
+  text-align:center;
+  font-size:24px;
+  cursor:pointer;
+}
+
+.hover-title:hover::before{
+  content:attr(data-msg);
+  position:absolute;
+  top:-50px;
+  left:10px;
+  padding:2px 6px;
+  display:inline-block;
+  color:#333;
+  border:1px solid #333;
+  border-radius:5px;
+  font-size:14px;
+}
+
+.hover-title:hover::after{
+  content:"";
+  border-top:5px solid #333;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+  position:absolute;
+  top:-6px;
+  left:55px;
+}

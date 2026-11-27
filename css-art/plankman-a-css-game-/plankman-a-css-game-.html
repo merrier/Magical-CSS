@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plankman (a CSS game)</title>
+  <link rel="stylesheet" href="plankman-a-css-game-.css">
+</head>
+<body>
+
+<input id="animations" type="checkbox"/>
+<div id="waves">
+<div class="wave wave-1"></div>
+<div class="wave wave-2"></div>
+</div>
+<div id="ship">
+<div class="flag"></div>
+<div class="sail"></div>
+<div class="net"></div>
+<div class="mast"></div>
+<div class="nest"></div>
+<div class="plank"></div>
+<div class="ship-body"></div>
+<div class="rudder"></div>
+</div>
+<form>
+<input id="sentence-0" name="sentence" type="radio"/>
+<input id="sentence-1" name="sentence" type="radio"/>
+<input id="sentence-2" name="sentence" type="radio"/>
+<input id="sentence-3" name="sentence" type="radio"/>
+<input id="sentence-4" name="sentence" type="radio"/>
+<input id="sentence-5" name="sentence" type="radio"/>
+<input id="sentence-6" name="sentence" type="radio"/>
+<input id="sentence-7" name="sentence" type="radio"/>
+<input id="sentence-8" name="sentence" type="radio"/>
+<input id="sentence-9" name="sentence" type="radio"/>
+<div class="popup" id="intro">
+<div class="map">
+<div class="map-body">
+<h1>Ahoy, me Hearties!</h1>
+<p>Plankman is a pirate-themed hangman game developed with HTML and CSS.</p>
+<p>The topic is "movies", can you guess all ten of them?</p>
+<p id="randomize">
+<label class="label" for="sentence-0">Play</label>
+<label class="label" for="sentence-1">Play</label>
+<label class="label" for="sentence-2">Play</label>
+<label class="label" for="sentence-3">Play</label>
+<label class="label" for="sentence-4">Play</label>
+<label class="label" for="sentence-5">Play</label>
+<label class="label" for="sentence-6">Play</label>
+<label class="label" for="sentence-7">Play</label>
+<label class="label" for="sentence-8">Play</label>
+<label class="label" for="sentence-9">Play</label>
+</p>
+</div>
+</div>
+</div>
+<br/>
+<input class="letter" id="letter-a" type="checkbox"/>
+<input class="letter" id="letter-b" type="checkbox"/>
+<input class="letter" id="letter-c" type="checkbox"/>
+<input class="letter" id="letter-d" type="checkbox"/>
+<input class="letter" id="letter-e" type="checkbox"/>
+<input class="letter" id="letter-f" type="checkbox"/>
+<input class="letter" id="letter-g" type="checkbox"/>
+<input class="letter" id="letter-h" type="checkbox"/>
+<input class="letter" id="letter-i" type="checkbox"/>
+<input class="letter" id="letter-j" type="checkbox"/>
+<input class="letter" id="letter-k" type="checkbox"/>
+<input class="letter" id="letter-l" type="checkbox"/>
+<input class="letter" id="letter-m" type="checkbox"/>
+<input class="letter" id="letter-n" type="checkbox"/>
+<input class="letter" id="letter-o" type="checkbox"/>
+<input class="letter" id="letter-p" type="checkbox"/>
+<input class="letter" id="letter-q" type="checkbox"/>
+<input class="letter" id="letter-r" type="checkbox"/>
+<input class="letter" id="letter-s" type="checkbox"/>
+<input class="letter" id="letter-t" type="checkbox"/>
+<input class="letter" id="letter-u" type="checkbox"/>
+<input class="letter" id="letter-v" type="checkbox"/>
+<input class="letter" id="letter-w" type="checkbox"/>
+<input class="letter" id="letter-x" type="checkbox"/>
+<input class="letter" id="letter-y" type="checkbox"/>
+<input class="letter" id="letter-z" type="checkbox"/>
+<div id="person">
+<div class="legs"></div>
+<div class="arms"></div>
+<div class="person-body"></div>
+<div class="feet"></div>
+<div class="head">
+<div class="eyes"></div>
+</div>
+</div>
+<div id="puzzle">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div class="popup" id="won">
+<div class="map">
+<div class="map-body">
+<h1>Congratulations!</h1>
+<p>You guessed the movie correctly and avoided getting eaten by sharks.</p>
+<p>
+<input class="button" type="reset" value="Play Again"/>
+</p>
+</div>
+</div>
+</div>
+<div class="popup" id="lost">
+<div class="map">
+<div class="map-body">
+<h1>Game Over!</h1>
+<p>You didn't guess the movie before walking the plank.</p>
+<p>
+<input class="button" type="reset" value="Play Again"/>
+</p>
+</div>
+</div>
+</div>
+<div id="labels">
+<label for="letter-a">a</label>
+<label for="letter-b">b</label>
+<label for="letter-c">c</label>
+<label for="letter-d">d</label>
+<label for="letter-e">e</label>
+<label for="letter-f">f</label>
+<label for="letter-g">g</label>
+<label for="letter-h">h</label>
+<label for="letter-i">i</label><br/>
+<label for="letter-j">j</label>
+<label for="letter-k">k</label>
+<label for="letter-l">l</label>
+<label for="letter-m">m</label>
+<label for="letter-n">n</label>
+<label for="letter-o">o</label>
+<label for="letter-p">p</label>
+<label for="letter-q">q</label>
+<label for="letter-r">r</label><br/>
+<label for="letter-s">s</label>
+<label for="letter-t">t</label>
+<label for="letter-u">u</label>
+<label for="letter-v">v</label>
+<label for="letter-w">w</label>
+<label for="letter-x">x</label>
+<label for="letter-y">y</label>
+<label for="letter-z">z</label>
+</div>
+<div id="shark">
+<div class="shark-body"></div>
+<div class="shark-eye"></div>
+<div class="aleta"></div>
+<div class="tail"></div>
+<div class="fin"></div>
+<div class="gill gill-1"></div>
+<div class="gill gill-2"></div>
+<div class="gill gill-3"></div>
+</div>
+</form>
+<label for="animations">ARRRnimations</label>
+</body>
+</html>

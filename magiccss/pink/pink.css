@@ -1,0 +1,34 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L2633 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+body { background: black }
+
+.pink {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: cursive;
+  text-align: center;
+  font-size: 10vmin;
+  line-height: 20vmin;
+  color: #fff;
+  cursor: pointer;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #e91e63, 0 0 35px #e91e63, 0 0 40px #e91e63, 0 0 50px #e91e63, 0 0 75px #e91e63;
+  -webkit-animation: pink 1.5s ease-in-out infinite alternate;
+          animation: pink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes pink {
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #e91e63, 0 0 70px #e91e63, 0 0 80px #e91e63, 0 0 100px #e91e63, 0 0 150px #e91e63;
+  }
+}
+
+@keyframes pink {
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #e91e63, 0 0 70px #e91e63, 0 0 80px #e91e63, 0 0 100px #e91e63, 0 0 150px #e91e63;
+  }
+}

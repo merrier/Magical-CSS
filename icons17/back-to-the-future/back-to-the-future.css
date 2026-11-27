@@ -1,0 +1,8 @@
+/* Lucas Garron 原作；本地据 17CSS 存档图例重绘 · https://web.archive.org/web/20100910/http://code.garron.us/css/BTTF_logo/
+   17CSS 图标与 Logo 合集 */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; }
+
+body { background: #141323; }
+strong { display: block; width: max-content; font: italic 900 clamp(42px,10vw,94px)/.82 Arial,sans-serif; letter-spacing: -.08em; transform: skew(-13deg) rotate(-7deg); background: linear-gradient(#fa482b 5%,#ffc636 48%,#ffe666 54%,#f14e22 95%); color: transparent; background-clip: text; filter: drop-shadow(-2px 2px #217bc1); -webkit-text-stroke: 1px #ffc567; }
+span { display: block; font-size: .3em; letter-spacing: .03em; text-align: center; margin: .32em 0; }
+

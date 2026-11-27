@@ -1,0 +1,51 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L1560 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.five-star{
+  position: absolute;
+  top: 35%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  display: block;
+  border-left: 3.04px solid transparent;
+  border-right: 3.24px solid transparent;
+  border-bottom: 10px solid #98DBE3;
+  -webkit-filter: drop-shadow(1px .5px 1px #ccc);
+  cursor: pointer;
+  transform:scale(8);
+}
+.five-star:before{
+    content: "";
+    position: absolute;
+    top: 8.65px;
+    left: -8.82px;
+    width: 0;
+    height: 0;
+    color: #98DBE3;
+    display: block;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-bottom: 9.08px solid #98DBE3;
+    transform-origin: top center;
+    transform: rotate(36deg);
+}
+.five-star:after{
+    content: "";
+    position: absolute;
+    top: 8.65px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    color: #98DBE3;
+    display: block;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-bottom: 9.08px solid #98DBE3;
+    transform-origin: top center;
+    transform: rotate(-36deg);
+}

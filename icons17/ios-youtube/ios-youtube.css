@@ -1,0 +1,170 @@
+/* Louis Harboe · https://web.archive.org/web/20100910/http://graphicpeel.com/cssiosicons
+   17CSS 图标与 Logo 合集 */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-size: cover;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.icon {
+  width: 176px;
+  height: 176px;
+  -webkit-border-radius: 30px;
+  background: #fff;
+  float: left;
+  margin: 50px;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.youtube {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#79532F), to(#8C6546));
+  border: 2px solid rgba(148, 134, 121, 0.8300);
+  width: 172px;
+  height: 172px;
+}
+
+.youtube .tv {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  top: 6px;
+  left: 6px;
+  -webkit-border-radius: 24px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCB376), to(#f8ecce));
+  -webkit-box-shadow: 0px -2px 3px #2f2917;
+}
+
+.youtube .screen {
+  width: 140px;
+  height: 125px;
+  margin: auto;
+  -webkit-border-radius: 43px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#636c52), to(#8E9D74));
+}
+
+.youtube .screen-gloss {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D8DCD5), to(#9CA491));
+  height: 68px;
+  -webkit-border-top-right-radius: 66px;
+  -webkit-border-top-left-radius: 66px;
+  -webkit-border-bottom-right-radius: 120px 20px;
+  -webkit-border-bottom-left-radius: 100px 20px;
+  -webkit-box-shadow: inset 0px 2px 1px #fff;
+}
+
+.youtube .screen-border {
+  width: 140px;
+  height: 125px;
+  position: relative;
+  top: 4px;
+  left: 8px;
+  -webkit-border-radius: 45px;
+  padding: 2px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5A5F5A), to(#70805b));
+  -webkit-box-shadow: 0px 2px 2px #fff;
+}
+
+.youtube .knob-handle {
+  -webkit-border-radius: 18px;
+  width: 18px;
+  height: 18px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#80553a), to(#7d4d36));
+  position: relative;
+  top: 3px;
+  left: 3px;
+  -webkit-box-shadow: inset 0px 2px 0px #a38569;
+}
+
+.youtube .knob-handle-center {
+  -webkit-border-radius: 12px;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 4px;
+  left: 4px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#DADADB), to(#3F2C2A));
+  -webkit-box-shadow: inset 0px 1px 1px #fff;
+}
+
+.youtube .knob-left {
+  -webkit-border-radius: 20px;
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: 1px 0px 0px 12px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4a3d42), to(#130f10));
+  -webkit-box-shadow: inset 0px 2px 0px #655657;
+  border: 1px solid #2b2326;
+}
+
+.youtube .knob-right {
+  -webkit-border-radius: 20px;
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin: 1px 12px 0px 0px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4a3d42), to(#130f10));
+  -webkit-box-shadow: inset 0px 2px 0px #655657;
+  border: 1px solid #2b2326;
+}
+
+.youtube .speaker-grill {
+  -webkit-box-reflect: right 0px;
+  width: 16px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.youtube .speaker-grill .slit1 {
+  width: 2px;
+  height: 6px;
+  -webkit-box-shadow: 0px 2px 0px #fff;
+  float: left;
+  background: #000;
+  margin-right: 3px;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  margin-top: 4px;
+}
+
+.youtube .speaker-grill .slit2 {
+  width: 2px;
+  height: 10px;
+  -webkit-box-shadow: 0px 2px 0px #fff;
+  float: left;
+  background: #000;
+  margin-right: 3px;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  margin-top: 2px;
+}
+
+.youtube .speaker-grill .slit3 {
+  width: 2px;
+  height: 12px;
+  -webkit-box-shadow: 0px 2px 0px #fff;
+  float: left;
+  background: #000;
+  margin-right: 3px;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  margin-top: 1px;
+}
+
+.youtube .speaker-grill .slit4 {
+  width: 1px;
+  height: 14px;
+  -webkit-box-shadow: 0px 2px 0px #fff;
+  float: left;
+  background: #000;
+  -webkit-border-top-left-radius: 1px;
+  -webkit-border-bottom-left-radius: 1px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.icon { margin: 0; }

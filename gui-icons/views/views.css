@@ -1,0 +1,60 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li:before, li:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+.views {
+    padding-left:28px;
+}
+
+.views:before {
+    left:3px;
+    width:14px;
+    height:14px;
+    margin-top:-8px;
+    background:#555;
+    -webkit-border-top-left-radius:12px;
+    -webkit-border-bottom-right-radius:12px;
+    -moz-border-radius:12px 0 12px 0;
+    border-radius:12px 0 12px 0;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.views:after {
+    left:6px;
+    width:4px;
+    height:4px;
+    border:2px solid #fff;
+    margin-top:-5px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

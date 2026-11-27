@@ -1,0 +1,21 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L1618 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.TaiChi{
+  position: absolute;
+  top: 50%;left: 50%;
+  width: 200px;height: 200px;
+  transform: translate(-50%, -50%);
+  box-shadow:0 0 2px #ddd;
+  border-radius:50%;
+  background-image:
+    radial-gradient(#000 12.5px, transparent 12.5px),
+    radial-gradient(#fff 12.5px, transparent 12.5px),
+    radial-gradient(#fff 50px, transparent 50px),
+    radial-gradient(#000 50px, transparent 50px),
+    linear-gradient(90deg,#000 100px, #fff 100px);
+  background-position:center 50px,center -50px,center 50px,center -50px,0 0;
+}

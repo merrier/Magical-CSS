@@ -1,0 +1,93 @@
+/* Nicolas Gallagher · https://web.archive.org/web/20100910/http://nicolasgallagher.com/demo/pure-css-social-media-icons/
+   Dual licensed under MIT and GNU GPLv2 © Nicolas Gallagher */
+body {
+  padding: 0;
+  margin: 0;
+  font: 1em/1.4 Cambria, Georgia, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font: 0.875em/1 Arial, sans-serif;
+}
+
+ul li {
+  float: left;
+  width: 66px;
+  height: 66px;
+  margin: 20px 20px 0 0;
+}
+
+ul li a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  line-height: 64px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul li a:hover, ul li a:focus, ul li a:active {
+  opacity: 0.8;
+  border-color: #000;
+}
+
+.delicious a {
+  position: relative;
+  border-color: #d2d2d2;
+  text-align: center;
+  text-indent: -9000px;
+  font-size: 108px;
+  font-weight: bold;
+  color: #fff;
+  background: #fff;
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d1d1d1));
+  background: -moz-linear-gradient(top, #fff, #d1d1d1);
+}
+
+.delicious a:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0060ce;
+  background: #085ec5;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0060ce)), to(#003b7f));
+  background: -moz-linear-gradient(top, #0060ce, #003b7f);
+}
+
+.delicious a:after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  background: #000;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#212121), to(#000));
+  background: -moz-linear-gradient(top, #212121, #000);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.content ul { width: auto; padding: 0; margin: 0; }

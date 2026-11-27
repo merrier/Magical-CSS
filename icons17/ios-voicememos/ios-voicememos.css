@@ -1,0 +1,258 @@
+/* Louis Harboe · https://web.archive.org/web/20100910/http://graphicpeel.com/cssiosicons
+   17CSS 图标与 Logo 合集 */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-size: cover;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.icon {
+  width: 176px;
+  height: 176px;
+  -webkit-border-radius: 30px;
+  background: #fff;
+  float: left;
+  margin: 50px;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.voicememos {
+  background: -webkit-gradient(radial, 88 90, 100, 88 90, 0, from(#220A0B), to(#ff0003));
+}
+
+.voicememos .gloss {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.2)));
+  height: 90px;
+  width: 176px;
+  position: relative;
+  -webkit-border-top-right-radius: 38px;
+  -webkit-border-top-left-radius: 38px;
+  -webkit-border-bottom-right-radius: 120px 20px;
+  -webkit-border-bottom-left-radius: 100px 20px;
+  z-index: 5;
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.5);
+}
+
+.voicememos .mic {
+  width: 176px;
+  height: 176px;
+  position: relative;
+  top: -90px;
+}
+
+.voicememos .mic-body {
+  height: 144px;
+  width: 72px;
+  position: relative;
+  margin: auto;
+  top: 13px;
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#000), to(#000), color-stop(.15,#949494),color-stop(.85,#949494));
+  -webkit-border-radius: 50px;
+  -webkit-box-shadow: inset 0px -7px 10px rgba(0,0,0,0.7);
+}
+
+.voicememos .shell {
+  border: 2px solid #afafaf;
+  -webkit-border-bottom-left-radius: 50px;
+  -webkit-border-bottom-right-radius: 50px;
+  height: 75px;
+  width: 76px;
+  margin: auto;
+  position: relative;
+  top: -61px;
+  border-top-color: transparent;
+  -webkit-box-shadow: 0px 1px 2px #000;
+}
+
+.voicememos .stem {
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#E6E7E7), to(#A3ABA9), color-stop(.3,#474747),color-stop(.7,#FBFBFA),color-stop(.8,#A3ABA9));
+  height: 16px;
+  position: relative;
+  width: 10px;
+  top: -63px;
+  margin: auto;
+  z-index: 5;
+}
+
+.voicememos .left-knob-base {
+  width: 6px;
+  height: 9px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EAE9E8), to(#EAE9E8), color-stop(.6,#3E3F3B),color-stop(.8,#888));
+  float: left;
+  margin: -2px 0px 0px -6px;
+  -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.9);
+}
+
+.voicememos .right-knob-base {
+  width: 6px;
+  height: 9px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EAE9E8), to(#EAE9E8), color-stop(.6,#3E3F3B),color-stop(.8,#888));
+  position: relative;
+  float: right;
+  margin: -2px -6px 0px 0px;
+  -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.9);
+}
+
+.voicememos .left-knob-head {
+  width: 3px;
+  height: 13px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#999), color-stop(.5,#222),color-stop(.6,#222));
+  float: left;
+  margin: -4px 0px 0px -9px;
+  -webkit-box-shadow: 1px 0px 0px rgba(0,0,0,0.7);
+  -webkit-border-radius: 1px;
+}
+
+.voicememos .right-knob-head {
+  width: 3px;
+  height: 13px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#999), color-stop(.5,#222),color-stop(.6,#222));
+  position: relative;
+  float: right;
+  margin: -4px -9px 0px 0px;
+  -webkit-box-shadow: -1px 0px 0px rgba(0,0,0,0.7);
+  -webkit-border-radius: 1px;
+}
+
+.voicememos .band {
+  width: 74px;
+  height: 16px;
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#8C8B8B), to(#8C8B8B), color-stop(.1,#FEFEFE),color-stop(.9,#FEFEFE),color-stop(.3,#999999),color-stop(.45,#FEFEFE),color-stop(.7,#444),color-stop(.15,#FEFEFE),color-stop(.56,#FEFEFE),color-stop(.85,#FEFEFE));
+  position: absolute;
+  top: 66px;
+  z-index: 11;
+  left: -1px;
+  border-top: 1px solid rgba(0,0,0,0.6);
+  border-bottom: 1px solid rgba(0,0,0,0.6);
+  -webkit-box-shadow: inset 0px 1px 2px #fff;
+}
+
+.voicememos .band-symbol {
+  height: 11px;
+  width: 11px;
+  -webkit-border-radius: 6px;
+  background: #c6c6c6;
+  margin: 2px auto 0px auto;
+  -webkit-box-shadow: inset 0px 0px 2px rgba(0,0,0,0.7);
+  color: #fafafa;
+  text-shadow: 0px 1px 1px #999;
+  font-size: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.voicememos .front-highlights {
+  height: 120px;
+  width: 52px;
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  z-index: 9;
+  left: 10px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c0c0c0), to(#939393), color-stop(.4,rgba(175, 175, 175, 0.1)),color-stop(.7,rgba(175, 175, 175, 0.2)));
+  -webkit-border-radius: 50px;
+}
+
+.voicememos .front-shading {
+  height: 115px;
+  width: 52px;
+  position: relative;
+  margin: auto;
+  top: 13px;
+  z-index: 7;
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(transparent), to(transparent), color-stop(.2,rgba(0, 0, 0, 1)),color-stop(.4,transparent),color-stop(.8,rgba(0, 0, 0, 1)),color-stop(.6,transparent));
+  -webkit-border-radius: 50px;
+}
+
+.voicememos .top-highlight {
+  height: 144px;
+  width: 72px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 12;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(rgba(0, 0, 0, 0.3)), color-stop(.3,transparent), color-stop(.7,transparent));
+  -webkit-box-shadow: inset 0px -3px 10px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 50px;
+}
+
+.voicememos .holes {
+  height: 144px;
+  width: 72px;
+  position: absolute;
+  left: 52px;
+  top: 13px;
+  z-index: 10;
+  background: transparent;
+}
+
+.voicememos .hole-row-1 {
+  width: 28px;
+  padding: 0px 23px 0px 23px;
+  height: 2px;
+  margin: 1px 0px 1px 1px;
+  float: left;
+}
+
+.voicememos .hole-row-2 {
+  width: 40px;
+  padding: 0px 17px 0px 15px;
+  height: 2px;
+  float: left;
+  margin: 1px 0px 1px 1px;
+}
+
+.voicememos .hole-row-3 {
+  width: 54px;
+  padding: 0px 10px 0px 9px;
+  height: 2px;
+  float: left;
+  margin: 1px 0px 1px 1px;
+}
+
+.voicememos .hole-row-4 {
+  width: 59px;
+  padding: 0px 6px 0px 6px;
+  height: 2px;
+  float: left;
+  margin: 1px 0px 1px 1px;
+}
+
+.voicememos .hole-row-5 {
+  width: 64px;
+  padding: 0px 3px 0px 3px;
+  height: 2px;
+  float: left;
+  margin: 1px 0px 1px 1px;
+}
+
+.voicememos .hole-row-6 {
+  width: 66px;
+  padding: 0px 2px 0px 2px;
+  height: 2px;
+  float: left;
+  margin: 1px 0px 1px 1px;
+}
+
+.voicememos .hole-row-7 {
+  width: 70px;
+  float: left;
+  margin: 1px 0px 1px 1px;
+  height: 90px;
+}
+
+.voicememos .hole {
+  width: 2px;
+  height: 2px;
+  -webkit-border-radius: 2px;
+  background: #000;
+  margin: 1px 0px 1px 1px;
+  float: left;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.icon { margin: 0; }

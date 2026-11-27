@@ -1,0 +1,78 @@
+/* Louis Harboe · https://web.archive.org/web/20100910/http://graphicpeel.com/cssiosicons
+   17CSS 图标与 Logo 合集 */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-size: cover;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.icon {
+  width: 176px;
+  height: 176px;
+  -webkit-border-radius: 30px;
+  background: #fff;
+  float: left;
+  margin: 50px;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.notes {
+  background: #432e25;
+}
+
+.notes .header {
+  -webkit-border-top-left-radius: 30px;
+  -webkit-border-top-right-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b28b78), to(#190a07), color-stop(.92,#432e25),color-stop(.1,#835a4d));
+  height: 50px;
+  width: 176px;
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.2);
+}
+
+.notes .paper {
+  -webkit-border-bottom-left-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#78745c), to(#f9f4b7), color-stop(.05,#bcb98c),color-stop(.2,#fef9be));
+  height: 126px;
+  width: 176px;
+}
+
+.notes .margin-lines {
+  width: 5px;
+  height: 126px;
+  border-left: double rgba(193, 23, 0, 0.3);
+  border-width: 4px;
+  margin-left: 22px;
+}
+
+.notes .line {
+  width: 176px;
+  height: 1px;
+  float: left;
+  border-bottom: 1px solid rgba(1, 52, 193, 0.2);
+  margin-top: 17px;
+}
+
+.notes .line-last {
+  width: 153px;
+  height: 1px;
+  float: left;
+  margin-left: 11px;
+  border-bottom: 1px solid rgba(1, 52, 193, 0.2);
+  margin-top: 17px;
+}
+
+.notes .paper-rip {
+  height: 3px;
+  width: 176px;
+  float: left;
+  border-top: 1px dotted #555;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+.icon { margin: 0; }

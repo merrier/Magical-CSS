@@ -1,0 +1,60 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L888 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+h1 { font-size: inherit; }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+
+.cloudy2{
+    position: absolute;
+    top: 50%;left: 50%;
+    width:200px;height:260px;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size:200%;
+    color:#fff;
+    background:#2EB5E5;
+    border-radius:5px;
+  }
+  .cloudy2:before {
+    content: "";
+    text-indent:23px;
+    font-size:22px;
+    line-height:40px;
+    color:#333;
+    position: absolute;
+    height: 50px;width: 50px;
+    background: #FFFFFF;
+    left:30%;
+    top:55%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index:100;
+    box-shadow:
+      #FFFFFF 65px -15px 0 -5px,
+      #FFFFFF 25px -25px,
+      #FFFFFF 30px 10px,
+      #FFFFFF 60px 15px 0 -10px,
+      #FFFFFF 85px 5px 0 -5px;
+    animation: cloudy2 5s ease-in-out infinite;
+  }
+  .cloudy2:after{
+    content:"";
+    position: absolute;
+    top: 45%;left: 63%;
+    height: 60px;
+    width: 60px;
+    z-index:10;
+    background:linear-gradient(180deg,#FE9F38 0%, #F46635 100%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 4px #FFA563;
+    animation: cloudy2 10s ease-in-out infinite;
+  }
+@keyframes cloudy2 {
+  50%{
+    transform: translate(-50%, -70%);
+  }
+  100%{
+    transform: translate(-50%, -50%);
+  }
+}

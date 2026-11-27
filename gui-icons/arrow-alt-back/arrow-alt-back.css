@@ -1,0 +1,84 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li a:link, li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#c55500;
+}
+
+li a:hover, li a:focus, li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before, li:after, li a:before, li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before, li a:after {
+    margin:-8px 0 0;
+    background:#c55500;
+}
+
+li a:hover:before, li a:focus:before, li a:active:before {
+    background:#730800;
+}
+
+.arrow-alt a:before {
+    left:8px;
+    border-width:7px 0 7px 8px;
+    border-style:solid;
+    border-color:transparent #c55500;
+    margin-top:-7px;
+    background:transparent;
+}
+
+.arrow-alt a:after {
+    left:0;
+    width:8px;
+    height:6px;
+    margin-top:-3px;
+    background:#c55500;
+}
+
+.arrow-alt a:hover:before, .arrow-alt a:focus:before, .arrow-alt a:active:before {
+    border-color:transparent #730800;
+    background:transparent;
+}
+
+.arrow-alt a:hover:after, .arrow-alt a:focus:after, .arrow-alt a:active:after {
+    background:#730800;
+}
+
+.arrow-alt.back a:before {
+    left:0;
+    border-width:7px 8px 7px 0;
+}
+
+.arrow-alt.back a:after {
+    left:8px;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

@@ -1,0 +1,204 @@
+/* Matthew James Taylor · https://web.archive.org/web/20100910/http://matthewjamestaylor.com/blog/css-reddit-alien
+   17CSS 图标与 Logo 合集 */
+#r-a {
+  font-size: 3em;
+  width: 5em;
+  height: 3.3em;
+  overflow: hidden;
+  font-family: Verdana, Arial, sans-serif;
+  float: left;
+  background: #fff;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+#r-a span, #r-a strong {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+#r-a .a {
+  left: 1.65em;
+  bottom: -.63em;
+}
+
+#r-a .b {
+  right: 1.65em;
+  bottom: -.63em;
+}
+
+#r-a .c {
+  left: .78em;
+  bottom: -.08em;
+  font-size: 2.3em;
+}
+
+#r-a .d {
+  left: 1em;
+  bottom: 0;
+  font-size: 1.8em;
+}
+
+#r-a .e {
+  right: 1em;
+  bottom: 0;
+  font-size: 1.8em;
+}
+
+#r-a .f {
+  left: 1.9em;
+  bottom: .55em;
+  font-size: .9em;
+}
+
+#r-a .g {
+  right: 1.9em;
+  bottom: .55em;
+  font-size: .9em;
+}
+
+#r-a .h {
+  left: .84em;
+  bottom: .55em;
+  font-size: 1.7em;
+}
+
+#r-a .i {
+  right: .84em;
+  bottom: .55em;
+  font-size: 1.7em;
+}
+
+#r-a .j {
+  left: .83em;
+  bottom: .41em;
+  font-size: 1.95em;
+}
+
+#r-a .k {
+  right: .83em;
+  bottom: .41em;
+  font-size: 1.95em;
+}
+
+#r-a .l {
+  left: 2.3em;
+  bottom: 2.1em;
+}
+
+#r-a .m {
+  left: 2.57em;
+  bottom: 2.52em;
+}
+
+#r-a .n {
+  left: 4.8em;
+  bottom: 4.55em;
+  font-size: .6em;
+}
+
+#r-a .o {
+  left: 1.8em;
+  bottom: 2.4em;
+  font-size: .8em;
+}
+
+#r-a .p {
+  right: 1.8em;
+  bottom: 2.4em;
+  font-size: .8em;
+}
+
+#r-a .q {
+  left: 1.01em;
+  bottom: .6em;
+  color: #fff;
+  font-size: 1.63em;
+}
+
+#r-a .r {
+  right: 1.01em;
+  bottom: .6em;
+  color: #fff;
+  font-size: 1.63em;
+}
+
+#r-a .s {
+  left: 1.14em;
+  bottom: .8em;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+#r-a .t {
+  right: 1.14em;
+  bottom: .8em;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+#r-a .u {
+  left: 1.53em;
+  bottom: .9em;
+  font-size: 1.3em;
+}
+
+#r-a .v {
+  left: 1.515em;
+  bottom: .955em;
+  font-size: 1.29em;
+  color: #fff;
+}
+
+#r-a .w {
+  left: 2.7em;
+  bottom: 2.3em;
+  font-size: .7em;
+  color: #f30;
+}
+
+#r-a .x {
+  right: 2.7em;
+  bottom: 2.3em;
+  font-size: .7em;
+  color: #f30;
+}
+
+#r-a .y {
+  left: .7em;
+  bottom: 1em;
+  font-size: 1.3em;
+  color: #f30;
+}
+
+#r-a .z {
+  right: .7em;
+  bottom: 1em;
+  font-size: 1.3em;
+  color: #f30;
+}
+
+#r-a .yy {
+  left: 0;
+  bottom: .495em;
+  font-size: 2em;
+  color: #f30;
+}
+
+#r-a .zz {
+  right: 0;
+  bottom: .495em;
+  font-size: 2em;
+  color: #f30;
+}
+
+#r-a .y, #r-a .z, #r-a .yy, #r-a .zz {
+  display: none;
+}
+
+#r-a:hover .y, #r-a:hover .z, #r-a:hover .yy, #r-a:hover .zz {
+  display: block;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

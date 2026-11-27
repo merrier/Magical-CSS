@@ -1,0 +1,135 @@
+/* Sean Martell · https://web.archive.org/web/20100910/http://blog.seanmartell.com/2010/03/25/raindrop-logo-in-css/
+   17CSS 图标与 Logo 合集 */
+html {
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  font-family: Tahoma, sans-serif !important;
+  padding: 0;
+  background-color: #CDCDCD;
+  color: #888;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: relative;
+  width: 256px;
+  height: 256px;
+  margin: 20px auto;
+}
+
+.raindrop0 {
+  position: absolute;
+  top: 64%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 100%;
+  background: transparent -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgba(0,0,0,0) 0%, rgba(0,105,149,0.4) 37%, rgba(80,80,80,0.1) 47%, rgba(80,80,80,0) 58%);
+  background: transparent -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgba(0,0,0,0) 0%, rgba(0,105,149,0.4) 37%, rgba(80,80,80,0.1) 47%, rgba(80,80,80,0) 58%);
+  background: transparent radial-gradient(ellipse, rgba(0,0,0,0) 0%, rgba(0,105,149,0.4) 37%, rgba(80,80,80,0.1) 47%, rgba(80,80,80,0) 58%);
+}
+
+.raindrop1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border-top-left-radius: 0;
+  background: transparent -moz-radial-gradient(20% 20%, #fff 22%, rgba(255,255,255,0.2) 30%, rgba(74,193,186,0.5) 45%, rgba(0,168,243,0.7) 65%, #fff 100%);
+  background: transparent -webkit-radial-gradient(20% 20%, #fff 22%, rgba(255,255,255,0.2) 30%, rgba(74,193,186,0.5) 45%, rgba(0,168,243,0.7) 65%, #fff 100%);
+  background: transparent radial-gradient(at 20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%);
+}
+
+.raindrop2 {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: 94%;
+  height: 94%;
+  border-radius: 100%;
+  border-top-left-radius: 0;
+  background: transparent -moz-radial-gradient(30% 55%, circle cover, rgba(0,105,149,0) 70%, rgba(0,105,149,0.8) 80%);
+  background: transparent -webkit-radial-gradient(30% 55%, circle cover, rgba(0,105,149,0) 70%, rgba(0,105,149,0.8) 80%);
+  background: transparent radial-gradient(circle farthest-corner at 30% 55%, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%);
+}
+
+.raindrop3 {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: 94%;
+  height: 94%;
+  border-radius: 100%;
+  border-top-left-radius: 0;
+  background: transparent -moz-radial-gradient(50% 10%, ellipse cover, rgba(0,105,149,0) 73%, rgba(0,105,149,0.3) 80%);
+  background: transparent -webkit-radial-gradient(50% 10%, ellipse cover, rgba(0,105,149,0) 73%, rgba(0,105,149,0.3) 80%);
+  background: transparent radial-gradient(ellipse farthest-corner at 50% 10%, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%);
+}
+
+.raindrop4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border-top-left-radius: 0;
+  box-shadow: inset rgba(124, 197, 238, 0.8) 0 0 32px;
+}
+
+.raindrop5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border-top-left-radius: 0;
+  background: transparent -moz-radial-gradient(30% 30%, ellipse cover, rgba(0,105,149,0) 50%, rgba(255,255,255,0.9) 72%, rgba(255,255,255,0.6) 90%);
+  background: transparent -webkit-radial-gradient(30% 30%, ellipse cover, rgba(0,105,149,0) 50%, rgba(255,255,255,0.9) 72%, rgba(255,255,255,0.6) 90%);
+  background: transparent radial-gradient(ellipse farthest-corner at 30% 30%, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%);
+}
+
+.raindrop6 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 80%;
+  height: 60%;
+  transform: matrix(1, -0.5, 0, 1, 0, 0);
+  background: transparent -moz-radial-gradient(73% 73%, ellipse farthest-corner, rgba(145,240,234,0.8) 6%, rgba(145,240,234,0.1) 25%, rgba(145,240,234,0) 30%);
+  background: transparent -webkit-radial-gradient(73% 73%, ellipse farthest-corner, rgba(145,240,234,0.8) 6%, rgba(145,240,234,0.1) 25%, rgba(145,240,234,0) 30%);
+  background: transparent radial-gradient(ellipse farthest-corner at 73% 73%, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%);
+}
+
+.raindrop7 {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  width: 75%;
+  height: 55%;
+  transform: matrix(1, -0.5, 0, 1, 0, 0);
+  background: transparent -moz-radial-gradient(73% 73%, ellipse farthest-corner, #fff 6%, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0) 30%);
+  background: transparent -webkit-radial-gradient(73% 73%, ellipse farthest-corner, #fff 6%, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0) 30%);
+  background: transparent radial-gradient(ellipse farthest-corner at 73% 73%, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%);
+}
+
+.raindrop8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border-top-left-radius: 0;
+  box-shadow: inset rgba(191, 235, 255, 0.8) 0 0 12px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }

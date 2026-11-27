@@ -1,0 +1,41 @@
+/* ChokCoco · https://github.com/chokcoco/magicCss/blob/31232a82d53de2ab48391dcd4fdbf55a45ecbf54/html/index.html#L2587 */
+html { font: 62.5% Arial, sans-serif; color: #333 }
+body, h1, p { margin: 0 }
+body { position: relative; min-height: 100svh; overflow: hidden; display: flow-root }
+body { background: black; filter: blur(4px) contrast(10) }
+
+.css-water {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(51vw, #ddd 0%, #666 10%, #fff, #000, #999) 27vw 95vh, radial-gradient(45vw, #ddd 0%, #666 10%, #fff, #000, #999) 59vw 78vh, radial-gradient(57vw, #ddd 0%, #666 10%, #fff, #000, #999) 85vw 62vh, radial-gradient(83vw, #ddd 0%, #666 10%, #fff, #000, #999) 91vw 64vh, radial-gradient(54vw, #ddd 0%, #666 10%, #fff, #000, #999) 52vw 13vh, radial-gradient(62vw, #ddd 0%, #666 10%, #fff, #000, #999) 4vw 34vh, radial-gradient(71vw, #ddd 0%, #666 10%, #fff, #000, #999) 8vw 81vh, radial-gradient(81vw, #ddd 0%, #666 10%, #fff, #000, #999) 28vw 80vh, radial-gradient(79vw, #ddd 0%, #666 10%, #fff, #000, #999) 82vw 93vh;
+  -webkit-animation: waveMove 10s infinite alternate;
+          animation: waveMove 10s infinite alternate;
+  background-blend-mode: difference;
+  -webkit-filter: blur(1px) contrast(5);
+          filter: blur(1px) contrast(5);
+}
+.css-water::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #03a9f4;
+  mix-blend-mode: color-burn;
+}
+
+@-webkit-keyframes waveMove {
+  100% {
+    background-position: -11vw -41vh, 33vw 77vh, 5vw -10vh, -4vw 2vh, 3vw -30vh, -33vw -31vh, -33vw -46vh, 34vw -39vh, 78vw 43vh;
+  }
+}
+
+@keyframes waveMove {
+  100% {
+    background-position: -11vw -41vh, 33vw 77vh, 5vw -10vh, -4vw 2vh, 3vw -30vh, -33vw -31vh, -33vw -46vh, 34vw -39vh, 78vw 43vh;
+  }
+}

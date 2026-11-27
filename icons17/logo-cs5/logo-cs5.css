@@ -1,0 +1,78 @@
+/* Radu Chelariu · https://web.archive.org/web/20100910/http://awesomebutuseless.com/designers-gone-wild/radu-chelariu-recreates-the-adobe-photoshop-logos-in-css3/
+   17CSS 图标与 Logo 合集 */
+#cs5-logo {
+  float: left;
+  height: 191px;
+  width: 191px;
+}
+
+#top-border {
+  background: #2baccb;
+  float: left;
+  height: 1px;
+  width: 177px;
+}
+
+#top-triangle {
+  border-top: 7px solid #00edfe;
+  border-right: 7px solid #00edfe;
+  border-bottom: 6px solid #003f8f;
+  border-left: 7px solid #003f8f;
+  margin: 1px 0 0 0;
+  position: absolute;
+  z-index: 9;
+}
+
+#top-inner {
+  background-color: #00edfe;
+  background-image: -moz-linear-gradient(0% 100% 0deg, #00edfe, #01b1ee );
+  background-image: -webkit-gradient(linear, 0% 0%, 90% 100%, from(#00edfe), to(#01b1ee));
+  height: 13px;
+  margin: 1px 0 0 14px;
+  position: absolute;
+  width: 162px;
+  z-index: 9;
+}
+
+#left-filler {
+  background-color: #091d43;
+  background-image: -moz-linear-gradient(100% 100% 90deg, #091d43, #003f8f );
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003f8f), to(#091d43));
+  height: 160px;
+  margin: 14px 0 0 0;
+  position: absolute;
+  width: 14px;
+  z-index: 9;
+}
+
+#bottom-left-side-triangle {
+  border-top: 9px solid #091d43;
+  border-right: 7px solid #091d43;
+  border-bottom: 9px solid #fff;
+  border-left: 7px solid #fff;
+  margin: 173px 0 0 0;
+  position: absolute;
+  z-index: 9;
+}
+
+#cs5-logo a {
+  background-color: #024e9d;
+  background-image: -moz-linear-gradient(100% 100% 90deg, #02346f, #0267c9 );
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0267c9), to(#02346f));
+  color: #03d4fd;
+  display: block;
+  font: normal bold 100px Arial, Verdana, Tahoma, sans-serif;
+  font-variant: small-caps;
+  height: 152px;
+  letter-spacing: -2px;
+  margin: 14px 0 0 14px;
+  padding: 25px 0 0 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 0px 4px #00459d;
+  width: 177px;
+  z-index: 10;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
+#cs5-logo { margin: 0; position: relative; inset: auto; }

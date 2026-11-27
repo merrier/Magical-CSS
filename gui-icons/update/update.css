@@ -1,0 +1,97 @@
+/* Nicolas Gallagher · Pure CSS GUI Icons v1.0.1, MIT / GPLv2 · https://nicolasgallagher.com/pure-css-gui-icons/demo/ */
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: white; }
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    margin:0 0 0.25em;
+}
+
+li a:link, li a:visited {
+    display:block;
+    border:0;
+    padding-left:28px;
+    color:#c55500;
+}
+
+li a:hover, li a:focus, li a:active {
+    color:#730800;
+    background:transparent;
+}
+
+li:before, li:after, li a:before, li a:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+}
+
+li a:before, li a:after {
+    margin:-8px 0 0;
+    background:#c55500;
+}
+
+li a:hover:before, li a:focus:before, li a:active:before {
+    background:#730800;
+}
+
+.update:before {
+    left:10px;
+    border-width:2px 0 2px 2px;
+    border-style:solid;
+    border-color:transparent #c55500;
+    margin-top:-1px;
+}
+
+.update a:before {
+    left:4px;
+    width:10px;
+    height:10px;
+    border:2px solid #c55500;
+    margin-top:-6px;
+    background:transparent;
+
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+.update a:after {
+    left:10px;
+    width:10px;
+    height:3px;
+    border:1px solid #fff;
+    margin-top:-6px;
+
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+
+.update:hover:before {
+    border-left-color:#730800;
+}
+
+.update a:hover:before, .update a:focus:before, .update a:active:before {
+    border-color:#730800;
+    background:transparent;
+}
+
+.update a:hover:after, .update a:focus:after, .update a:active:after {
+    background:#730800;
+}
+
+ul { transform: scale(5); }
+li { width: 24px; height: 26px; margin: 0; white-space: nowrap; font: 16px/26px Arial, sans-serif; box-sizing: border-box; text-indent: 28px; }
+li a { text-indent: 0; }
+li::before, li::after, li a::before, li a::after { text-indent: 0; }

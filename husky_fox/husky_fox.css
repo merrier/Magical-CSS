@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  margin: 0;
+  background: #e4f1e9;
+}
+
+svg {
+  display: block;
+  width: min(100%, 620px);
+}
+
+.mouth {
+  fill: none;
+  stroke: #37333a;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.husky-head { transform-origin: 122px 146px; }
+.fox-head { transform-origin: 280px 142px; }
+.fox-tail { transform-origin: 301px 186px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .husky-head { animation: tilt 3.2s ease-in-out infinite alternate; }
+  .fox-head { animation: tilt 3.2s -.9s ease-in-out infinite alternate-reverse; }
+  .fox-tail { animation: swish 1.4s ease-in-out infinite alternate; }
+}
+
+@keyframes tilt {
+  0%, 30% { transform: rotate(0); }
+  80%, 100% { transform: rotate(-7deg); }
+}
+
+@keyframes swish {
+  from { transform: rotate(-8deg); }
+  to { transform: rotate(9deg); }
+}

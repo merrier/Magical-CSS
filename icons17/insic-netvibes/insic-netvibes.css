@@ -1,0 +1,41 @@
+/* insicdesigns · https://web.archive.org/web/20100910/http://blog.insicdesigns.com/2010/03/create-social-media-icons-in-pure-css/
+   17CSS 图标与 Logo 合集 */
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #262626;
+  margin: 20px;
+  padding: 0;
+  background: #efefef;
+}
+
+.fl {
+  float: left;
+  margin-right: 20px;
+}
+
+.netvibes {
+  background: rgba(104,219,33,1);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(104,219,33,1)), to(rgba(19,130,16,1)));
+  background: -moz-linear-gradient(top, rgba(104,219,33,1), rgba(19,130,16,1));
+  color: #fff;
+  text-align: center;
+  border-color: #0c5f0c;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 178px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+.s128 {
+  width: 128px;
+  height: 128px;
+  border-width: 3px;
+  line-height: 128px;
+  text-shadow: 0 -2px 0 rgba(0,0,0,0.5);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+body { margin: 0; padding: 0; min-height: 100svh; display: grid; place-content: center; }
